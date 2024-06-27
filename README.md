@@ -18,7 +18,8 @@ More info to be found on the following<br>
 ## Content
 Code Content is the Propel Builder (verilog project) and the Propel SDK code (C-project)<br>
 Lattice currently is pretty lean on the base templates for propel and RiscV. This project is a try out and adds a second core and GPIO for user-button input.<br>
-C-Code is created for cpu0 and cpu1, communicating via a Dualport Memory via software metaphores.
+C-Code is created for cpu0 and cpu1, using the created BSP packages by tge Propel builder. <br>
+CPU's are communicating using the memory mapped Dualport Memory and a simple soft-metaphore: 64 bytes are send to CPU1, it re0crearts the date and sends it back. CPU0 have a USB-comport open and reports the data.
 
 ## Wiring
 Follow the Lattice Propel Video's to understand the work-flow for designing a RiscV on FPGA.<br>
