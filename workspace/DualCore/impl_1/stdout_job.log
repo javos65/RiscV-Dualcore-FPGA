@@ -1,0 +1,80 @@
+{
+"Synplify Pro (R) Job Log" : {
+	"Date" : "16:46:28    27-Jun-2024",
+	"Working Directory" : "C:/Users/javos/workspace/DualCore/impl_1",
+	"Install" : "C:/lscc/radiant/2023.2/synpbase"
+},
+"impl_1" :{
+   "Start Time" : "16:44:36",
+   "Runtime" : "01m:52s",
+   "Executable Run Time" : "01m:50s",
+   "synthesis" : {
+      "Start Time" : "16:44:36",
+      "Runtime" : "01m:52s",
+      "Executable Run Time" : "01m:50s",
+      "compile" : {
+         "Start Time" : "16:44:36",
+         "Runtime" : "46s",
+         "Executable Run Time" : "45s",
+         "compile_flow" : {
+            "Start Time" : "16:44:36",
+            "Runtime" : "41s",
+            "Executable Run Time" : "40s",
+            "compiler" : {
+               "executable" : "bin64/c_hdl.exe",
+               "Run Directory" : "C:/Users/javos/workspace/DualCore/impl_1",
+               "Run State" : "Complete",
+               "Return Code" : "0",
+               "Has Errors" : "no",
+               "Run Start Time" : "16:44:36",
+               "Run Time" : "39s",
+               "Exe Run Time" : "38s",
+               "Memory Usage" : "-",
+               "Up-to-date (run skipped)" : "no"
+            },
+            "multi_srs_gen" : {
+               "executable" : "bin64/syn_nfilter.exe",
+               "Run Directory" : "C:/Users/javos/workspace/DualCore/impl_1",
+               "Run State" : "Complete",
+               "Return Code" : "0",
+               "Has Errors" : "no",
+               "Run Start Time" : "16:45:15",
+               "Run Time" : "02s",
+               "Exe Run Time" : "02s",
+               "Memory Usage" : "-",
+               "Up-to-date (run skipped)" : "no"
+            }
+         },
+         "premap" : {
+            "executable" : "bin64/m_gen_lattice.exe",
+            "Run Directory" : "C:/Users/javos/workspace/DualCore/impl_1",
+            "Run State" : "Complete",
+            "Return Code" : "1",
+            "Has Errors" : "no",
+            "Run Start Time" : "16:45:17",
+            "Run Time" : "05s",
+            "Exe Run Time" : "05s",
+            "Memory Usage" : "-",
+            "Up-to-date (run skipped)" : "no"
+         }
+      },
+      "map" : {
+         "Start Time" : "16:45:23",
+         "Runtime" : "01m:05s",
+         "Executable Run Time" : "01m:05s",
+         "fpga_mapper" : {
+            "executable" : "bin64/m_gen_lattice.exe",
+            "Run Directory" : "C:/Users/javos/workspace/DualCore/impl_1",
+            "Run State" : "Complete",
+            "Return Code" : "1",
+            "Has Errors" : "no",
+            "Run Start Time" : "16:45:23",
+            "Run Time" : "01m:05s",
+            "Exe Run Time" : "01m:05s",
+            "Memory Usage" : "-",
+            "Up-to-date (run skipped)" : "no"
+         }
+      }
+   }
+}
+}

@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+    <device schemaVersion="1.1" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="CMSIS-SVD.xsd" >
+      <vendor>Latticsemi.com</vendor>                                       <!-- device vendor name -->
+      <vendorID>Latticesemi</vendorID>                                        <!-- device vendor short name -->
+      <name>LFD2NX_40</name>                                        <!-- name of part-->
+      <series>LFD2NX</series>                                         <!-- device series the device belongs to -->
+      <version>1.0</version>                                          <!-- version of this description, adding CMSIS-SVD 1.1 tags -->
+      <description>DualCore</description>
+
+      <addressUnitBits>8</addressUnitBits>
+      <width>32</width>
+      <size>32</size>
+      <access>read-write</access>
+      <resetValue>0x00000000</resetValue>
+      <resetMask>0xFFFFFFFF</resetMask>
+
+      <peripherals>
+          <peripheral>
+          <name>cpu1_inst</name>
+          <version>2.5.0</version>
+          <baseAddress>0xFFFF0000</baseAddress>
+          <groupName>riscv_mc</groupName>
+          <description></description>
+
+          <addressBlock>
+            <offset>0x0</offset>
+            <size>0x00000800</size>
+            <usage>registers</usage>
+          </addressBlock>
+
+          <registers>
+                <!-- PIC_STATUS: Interrupt Status Register -->
+            <register>
+              <name>PIC_STATUS</name>
+              <description>Interrupt Status Register</description>
+              <addressOffset>0x0000</addressOffset>
+              <size>2</size>
+              <access>read-write</access>
+              <resetValue>0x00000000</resetValue>
+              <resetMask>0xFFFFFFFF</resetMask>
+
+              <fields>
+                          <!-- status: Interrupt Status -->
+                <field>
+                  <name>status</name>
+                  <description>Interrupt Status</description>
+                  <bitRange>[1:0]</bitRange>
+                  <access>read-write</access>
+                </field>
+
+              </fields>
+           </register>
+
+      <!-- PIC_ENABLE: Interrupt Enable Register -->
+            <register>
+              <name>PIC_ENABLE</name>
+              <description>Interrupt Enable Register</description>
+              <addressOffset>0x0004</addressOffset>
+              <size>2</size>
+              <access>read-write</access>
+              <resetValue>0x00000000</resetValue>
+              <resetMask>0xFFFFFFFF</resetMask>
+
+              <fields>
+                          <!-- enable: Interrupt Enable -->
+                <field>
+                  <name>enable</name>
+                  <description>Interrupt Enable</description>
+                  <bitRange>[1:0]</bitRange>
+                  <access>read-write</access>
+                </field>
+
+              </fields>
+           </register>
+
+      <!-- PIC_SET: Interrupt Set Register -->
+            <register>
+              <name>PIC_SET</name>
+              <description>Interrupt Set Register</description>
+              <addressOffset>0x0008</addressOffset>
+              <size>2</size>
+              <access>write-only</access>
+              <resetValue>0x00000000</resetValue>
+              <resetMask>0xFFFFFFFF</resetMask>
+
+              <fields>
+                          <!-- set: Interrupt Set -->
+                <field>
+                  <name>set</name>
+                  <description>Interrupt Set</description>
+                  <bitRange>[1:0]</bitRange>
+                  <access>write-only</access>
+                </field>
+
+              </fields>
+           </register>
+
+      <!-- PIC_POL: Interrupt Polarity Register -->
+            <register>
+              <name>PIC_POL</name>
+              <description>Interrupt Polarity Register</description>
+              <addressOffset>0x000C</addressOffset>
+              <size>2</size>
+              <access>read-write</access>
+              <resetValue>0x00000000</resetValue>
+              <resetMask>0xFFFFFFFF</resetMask>
+
+              <fields>
+                          <!-- pol: Interrupt Polarity -->
+                <field>
+                  <name>pol</name>
+                  <description>Interrupt Polarity</description>
+                  <bitRange>[1:0]</bitRange>
+                  <access>read-write</access>
+                </field>
+
+              </fields>
+           </register>
+
+      <!-- TIMER_CNT_L: Timer Counter Lower Register -->
+            <register>
+              <name>TIMER_CNT_L</name>
+              <description>Timer Counter Lower Register</description>
+              <addressOffset>0x0400</addressOffset>
+              <size>32</size>
+              <access>read-write</access>
+              <resetValue>0x00000000</resetValue>
+              <resetMask>0xFFFFFFFF</resetMask>
+
+              <fields>
+                          <!-- cnt_l: Lower 32 bits of 64-bit timer counter register -->
+                <field>
+                  <name>cnt_l</name>
+                  <description>Lower 32 bits of 64-bit timer counter register</description>
+                  <bitRange>[31:0]</bitRange>
+                  <access>read-write</access>
+                </field>
+
+              </fields>
+           </register>
+
+      <!-- TIMER_CNT_H: Timer Counter Higher Register -->
+            <register>
+              <name>TIMER_CNT_H</name>
+              <description>Timer Counter Higher Register</description>
+              <addressOffset>0x0404</addressOffset>
+              <size>32</size>
+              <access>read-write</access>
+              <resetValue>0x00000000</resetValue>
+              <resetMask>0xFFFFFFFF</resetMask>
+
+              <fields>
+                          <!-- cnt_h: Higher 32 bits of 64-bit timer counter register -->
+                <field>
+                  <name>cnt_h</name>
+                  <description>Higher 32 bits of 64-bit timer counter register</description>
+                  <bitRange>[31:0]</bitRange>
+                  <access>read-write</access>
+                </field>
+
+              </fields>
+           </register>
+
+      <!-- TIMER_CMP_L: Timer Compare Lower Register -->
+            <register>
+              <name>TIMER_CMP_L</name>
+              <description>Timer Compare Lower Register</description>
+              <addressOffset>0x0410</addressOffset>
+              <size>32</size>
+              <access>read-write</access>
+              <resetValue>0x00000000</resetValue>
+              <resetMask>0xFFFFFFFF</resetMask>
+
+              <fields>
+                          <!-- cmp_l: Lower 32 bits of 64-bit timer compare register -->
+                <field>
+                  <name>cmp_l</name>
+                  <description>Lower 32 bits of 64-bit timer compare register</description>
+                  <bitRange>[31:0]</bitRange>
+                  <access>read-write</access>
+                </field>
+
+              </fields>
+           </register>
+
+      <!-- TIMER_CMP_H: Timer Compare Higher Register -->
+            <register>
+              <name>TIMER_CMP_H</name>
+              <description>Timer Compare Higher Register</description>
+              <addressOffset>0x0414</addressOffset>
+              <size>32</size>
+              <access>read-write</access>
+              <resetValue>0x00000000</resetValue>
+              <resetMask>0xFFFFFFFF</resetMask>
+
+              <fields>
+                          <!-- cmp_h: Higher 32 bits of 64-bit timer compare register -->
+                <field>
+                  <name>cmp_h</name>
+                  <description>Higher 32 bits of 64-bit timer compare register</description>
+                  <bitRange>[31:0]</bitRange>
+                  <access>read-write</access>
+                </field>
+
+              </fields>
+           </register>
+
+
+          </registers>
+    </peripheral>
+    <peripheral>
+          <name>dualport_inst</name>
+          <version>2.1.0</version>
+          <baseAddress>0x00008800</baseAddress>
+          <groupName>system_memory</groupName>
+          <description></description>
+
+          <addressBlock>
+            <offset>0x0</offset>
+            <size>0x00000800</size>
+            <usage>registers</usage>
+          </addressBlock>
+
+          <registers>
+          
+          </registers>
+    </peripheral>
+    <peripheral>
+          <name>gpio1_inst</name>
+          <version>1.6.2</version>
+          <baseAddress>0x00008800</baseAddress>
+          <groupName>gpio</groupName>
+          <description></description>
+
+          <addressBlock>
+            <offset>0x0</offset>
+            <size>0x00000400</size>
+            <usage>registers</usage>
+          </addressBlock>
+
+          <registers>
+                <!-- RD_DATA_REG: Read Data Register -->
+            <register>
+              <name>RD_DATA_REG</name>
+              <description>Read Data Register</description>
+              <addressOffset>0x0000</addressOffset>
+              <size>32</size>
+              <access>read-only</access>
+              <resetValue>0x00000000</resetValue>
+              <resetMask>0xFFFFFFFF</resetMask>
+
+              <fields>
+                          <!-- rd_data: Read actual values of GPIO's -->
+                <field>
+                  <name>rd_data</name>
+                  <description>Read actual values of GPIO's</description>
+                  <bitRange>[7:0]</bitRange>
+                  <access>read-only</access>
+                </field>
+
+              </fields>
+           </register>
+
+      <!-- WR_DATA_REG: Write Data Register -->
+            <register>
+              <name>WR_DATA_REG</name>
+              <description>Write Data Register</description>
+              <addressOffset>0x0004</addressOffset>
+              <size>32</size>
+              <access>read-write</access>
+              <resetValue>0x00000000</resetValue>
+              <resetMask>0xFFFFFFFF</resetMask>
+
+              <fields>
+                          <!-- wr_data: Write GPIO output register -->
+                <field>
+                  <name>wr_data</name>
+                  <description>Write GPIO output register</description>
+                  <bitRange>[7:0]</bitRange>
+                  <access>read-write</access>
+                </field>
+
+              </fields>
+           </register>
+
+      <!-- SET_DATA_REG: Set Data Register -->
+            <register>
+              <name>SET_DATA_REG</name>
+              <description>Set Data Register</description>
+              <addressOffset>0x0008</addressOffset>
+              <size>32</size>
+              <access>write-only</access>
+              <resetValue>0x00000000</resetValue>
+              <resetMask>0xFFFFFFFF</resetMask>
+
+              <fields>
+                          <!-- set_data: Set GPIO output register -->
+                <field>
+                  <name>set_data</name>
+                  <description>Set GPIO output register</description>
+                  <bitRange>[7:0]</bitRange>
+                  <access>write-only</access>
+                </field>
+
+              </fields>
+           </register>
+
+      <!-- CLEAR_DATA_REG: Clear Data Register -->
+            <register>
+              <name>CLEAR_DATA_REG</name>
+              <description>Clear Data Register</description>
+              <addressOffset>0x000C</addressOffset>
+              <size>32</size>
+              <access>write-only</access>
+              <resetValue>0x00000000</resetValue>
+              <resetMask>0xFFFFFFFF</resetMask>
+
+              <fields>
+                          <!-- clear_data: Clear GPIO output register -->
+                <field>
+                  <name>clear_data</name>
+                  <description>Clear GPIO output register</description>
+                  <bitRange>[7:0]</bitRange>
+                  <access>write-only</access>
+                </field>
+
+              </fields>
+           </register>
+
+      <!-- DIRECTION_REG: Direction Register -->
+            <register>
+              <name>DIRECTION_REG</name>
+              <description>Direction Register</description>
+              <addressOffset>0x0010</addressOffset>
+              <size>32</size>
+              <access>read-write</access>
+              <resetValue>0x00000000</resetValue>
+              <resetMask>0xFFFFFFFF</resetMask>
+
+              <fields>
+                          <!-- direction_reg: GPIO Direction register -->
+                <field>
+                  <name>direction_reg</name>
+                  <description>GPIO Direction register</description>
+                  <bitRange>[7:0]</bitRange>
+                  <access>read-write</access>
+                </field>
+
+              </fields>
+           </register>
+
+      <!-- INT_TYPE_REG: Interrupt Type Register -->
+            <register>
+              <name>INT_TYPE_REG</name>
+              <description>Interrupt Type Register</description>
+              <addressOffset>0x0014</addressOffset>
+              <size>32</size>
+              <access>read-write</access>
+              <resetValue>0x00000000</resetValue>
+              <resetMask>0xFFFFFFFF</resetMask>
+
+              <fields>
+                          <!-- int_type: Interrupt Type Cofiguration Register, 1-Edge, 0-Level -->
+                <field>
+                  <name>int_type</name>
+                  <description>Interrupt Type Cofiguration Register, 1-Edge, 0-Level</description>
+                  <bitRange>[7:0]</bitRange>
+                  <access>read-write</access>
+                </field>
+
+              </fields>
+           </register>
+
+      <!-- INT_METHOD_REG: Interrupt Method Register -->
+            <register>
+              <name>INT_METHOD_REG</name>
+              <description>Interrupt Method Register</description>
+              <addressOffset>0x0018</addressOffset>
+              <size>32</size>
+              <access>read-write</access>
+              <resetValue>0x00000000</resetValue>
+              <resetMask>0xFFFFFFFF</resetMask>
+
+              <fields>
+                          <!-- int_method: Interrupt Method Register, if Interrupt Type is Edge` 1-Rising edge 0-faling edge, if Interrupt Type is Level` 1-High level, 0-Low level -->
+                <field>
+                  <name>int_method</name>
+                  <description>Interrupt Method Register, if Interrupt Type is Edge` 1-Rising edge 0-faling edge, if Interrupt Type is Level` 1-High level, 0-Low level</description>
+                  <bitRange>[7:0]</bitRange>
+                  <access>read-write</access>
+                </field>
+
+              </fields>
+           </register>
+
+      <!-- INT_STATUS_REG: Interrupt Status Register -->
+            <register>
+              <name>INT_STATUS_REG</name>
+              <description>Interrupt Status Register</description>
+              <addressOffset>0x001C</addressOffset>
+              <size>32</size>
+              <access>read-write</access>
+              <resetValue>0x00000000</resetValue>
+              <resetMask>0xFFFFFFFF</resetMask>
+
+              <fields>
+                          <!-- int_status: Interrupt Status Register, indicates interrupt status -->
+                <field>
+                  <name>int_status</name>
+                  <description>Interrupt Status Register, indicates interrupt status</description>
+                  <bitRange>[7:0]</bitRange>
+                  <access>read-write</access>
+                </field>
+
+              </fields>
+           </register>
+
+      <!-- INT_ENABLE_REG: Interrupt Enable Register -->
+            <register>
+              <name>INT_ENABLE_REG</name>
+              <description>Interrupt Enable Register</description>
+              <addressOffset>0x0020</addressOffset>
+              <size>32</size>
+              <access>read-write</access>
+              <resetValue>0x00000000</resetValue>
+              <resetMask>0xFFFFFFFF</resetMask>
+
+              <fields>
+                          <!-- Int_enable: Interrupt Enable Register, enables appropriate channel interrupt -->
+                <field>
+                  <name>Int_enable</name>
+                  <description>Interrupt Enable Register, enables appropriate channel interrupt</description>
+                  <bitRange>[7:0]</bitRange>
+                  <access>read-write</access>
+                </field>
+
+              </fields>
+           </register>
+
+      <!-- INT_SET_REG: Interrupt Set Register -->
+            <register>
+              <name>INT_SET_REG</name>
+              <description>Interrupt Set Register</description>
+              <addressOffset>0x0024</addressOffset>
+              <size>32</size>
+              <access>write-only</access>
+              <resetValue>0x00000000</resetValue>
+              <resetMask>0xFFFFFFFF</resetMask>
+
+              <fields>
+                          <!-- int_set: Interrupt Set Register, user can generate interrupt by writing '1' to the corresponding bit of this register -->
+                <field>
+                  <name>int_set</name>
+                  <description>Interrupt Set Register, user can generate interrupt by writing '1' to the corresponding bit of this register</description>
+                  <bitRange>[7:0]</bitRange>
+                  <access>write-only</access>
+                </field>
+
+              </fields>
+           </register>
+
+
+          </registers>
+    </peripheral>
+    <peripheral>
+          <name>sysmem1_inst</name>
+          <version>2.1.0</version>
+          <baseAddress>0x00000000</baseAddress>
+          <groupName>system_memory</groupName>
+          <description></description>
+
+          <addressBlock>
+            <offset>0x0</offset>
+            <size>0x00008000</size>
+            <usage>registers</usage>
+          </addressBlock>
+
+          <registers>
+          
+          </registers>
+    </peripheral>
+
+      </peripherals>
+    </device>

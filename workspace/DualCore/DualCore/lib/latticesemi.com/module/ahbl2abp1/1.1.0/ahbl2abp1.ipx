@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<RadiantModule architecture="LFD2NX" date="2024 06 27 14:39:04" device="LFD2NX-40" gen_platform="Propel" generator="ipgen" library="module" module="ahb_lite_to_apb_bridge" name="ahbl2abp1" package="CABGA196" source_format="Verilog" speed="7_High-Performance_1.0V" vendor="latticesemi.com" version="1.1.0">
+ <Package>
+  <File modified="2024 06 27 14:39:04" name="rtl/ahbl2abp1_bb.v" type="black_box_verilog"/>
+  <File modified="2024 06 27 14:39:04" name="ahbl2abp1.cfg" type="cfg"/>
+  <File modified="2024 06 27 14:39:04" name="misc/ahbl2abp1_tmpl.v" type="template_verilog"/>
+  <File modified="2024 06 27 14:39:04" name="misc/ahbl2abp1_tmpl.vhd" type="template_vhdl"/>
+  <File modified="2024 06 27 14:39:04" name="rtl/ahbl2abp1.v" type="top_level_verilog"/>
+  <File modified="2024 06 27 14:39:04" name="testbench/dut_params.v" type="dependency_file"/>
+  <File modified="2024 06 27 14:39:04" name="testbench/dut_inst.v" type="dependency_file"/>
+  <File modified="2024 06 27 14:39:04" name="component.xml" type="IP-XACT_component"/>
+  <File modified="2024 06 27 14:39:04" name="design.xml" type="IP-XACT_design"/>
+  <File modified="2019 12 20 02:27:13" name="testbench/ahbl2apb_top.v" type="testbench_verilog"/>
+  <File modified="2019 12 20 02:27:13" name="testbench/lscc_ahbl_master_dummy.v" type="testbench_verilog"/>
+  <File modified="2019 12 20 02:27:13" name="testbench/lscc_apb_slave_dummy.v" type="testbench_verilog"/>
+  <File modified="2019 12 20 02:27:13" name="testbench/lscc_dummy_model_lfsr.v" type="testbench_verilog"/>
+ </Package>
+</RadiantModule>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<propelProject>
+    <builder-resource>
+        <socProject sbxfile="./DualCore/DualCore.sbx"/>
+        <verifyProject sbxfile="./verification/DualCore_v.sbx"/>
+        <AddResources/>
+    </builder-resource>
+    <builderInfo version="2023.2"/>
+</propelProject>

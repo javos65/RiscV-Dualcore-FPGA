@@ -1,0 +1,12 @@
+cpu0_ipgen_BufferCC_1_
+cpu0_ipgen_FlowCCByToggle
+cpu0_ipgen_JtagBridge
+cpu0_ipgen_SystemDebugger
+cpu0_ipgen_StreamFifoLowLatency_Dbg_IMAC
+cpu1_ipgen_StreamFifoLowLatency_NoDbg_IC
+gpio0
+gpio1
+osc0
+pll0
+uart0
+DualCore

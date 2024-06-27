@@ -1,0 +1,1344 @@
+---------------------------------------------------
+Report for cell DualCore
+   Instance path: DualCore
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                MULT18	       6.00        100.0
+                                  LUT4	       7688        100.0
+                               LUTGATE	       6518        100.0
+                                LUTCCU	       1170        100.0
+                                 IOREG	         17        100.0
+                                 IOBUF	         19        100.0
+                                PFUREG	       3905        100.0
+                                   EBR	         38        100.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                       ahbl0_Z7_layer0	          1         1.2
+                      ahbl1_Z14_layer0	          1         1.2
+                             ahbl2abp1	          1         1.8
+                         ahbl2apb0_32s	          1         1.9
+     apb0_32s_1s_32768_1024_33792_1024	          1         0.3
+cpu0_0s_0s_4294967295_0_4294967295_0_4294901760_21_layer0	          1        48.2
+cpu1_0s_0s_4294967295_0_4294967295_0_4294901760_23_layer0	          1        36.6
+                     dualport_dualport	          1         1.0
+                                 gpio0	          1         1.6
+                                 gpio1	          1         1.5
+                                  osc0	          1         0.0
+                                  pll0	          1         0.0
+                       sysmem0_sysmem0	          1         0.7
+                       sysmem1_sysmem1	          1         0.7
+                                 uart0	          1         3.4
+---------------------------------------------------
+Report for cell ahbl0_Z7_layer0
+   Instance path: DualCore/ahbl0_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         96         1.2
+                               LUTGATE	         96         1.5
+                                PFUREG	          7         0.2
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+ahbl0_ipgen_lscc_ahbl_interconnect_Z1_layer0	          1         1.2
+---------------------------------------------------
+Report for cell ahbl0_ipgen_lscc_ahbl_interconnect_Z1_layer0
+   Instance path: DualCore/ahbl0_inst/lscc_ahbl_interconnect_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         96         1.2
+                               LUTGATE	         96         1.5
+                                PFUREG	          7         0.2
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+   ahbl0_ipgen_lscc_ahbl_bus_Z6_layer0	          1         1.2
+---------------------------------------------------
+Report for cell ahbl0_ipgen_lscc_ahbl_bus_Z6_layer0
+   Instance path: DualCore/ahbl0_inst/lscc_ahbl_interconnect_inst/ahb_lite_bus.u_lscc_ahbl_bus
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         96         1.2
+                               LUTGATE	         96         1.5
+                                PFUREG	          7         0.2
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+ahbl0_ipgen_lscc_ahbl_decoder_Z2_layer0	          1         0.2
+ahbl0_ipgen_lscc_ahbl_default_slv_32s_2s_0s_1s_2s_0_1_2_3	          1         0.0
+ahbl0_ipgen_lscc_ahbl_multiplexor_32s_32s_3s_0s	          1         1.0
+---------------------------------------------------
+Report for cell ahbl0_ipgen_lscc_ahbl_decoder_Z2_layer0
+   Instance path: DualCore/ahbl0_inst/lscc_ahbl_interconnect_inst/ahb_lite_bus.u_lscc_ahbl_bus/u_lscc_ahbl_decoder
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         18         0.2
+                               LUTGATE	         18         0.3
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+ahbl0_ipgen_lscc_ahbl_decoder_prim_8s_32s_1s_1_3_layer0	          1         0.2
+ahbl0_ipgen_lscc_ahbl_decoder_prim_8s_32s_1s_1_4_layer0	          1         0.0
+ahbl0_ipgen_lscc_ahbl_decoder_prim_8s_32s_1s_1_5_layer0	          1         0.0
+---------------------------------------------------
+Report for cell ahbl0_ipgen_lscc_ahbl_decoder_prim_8s_32s_1s_1_3_layer0
+   Instance path: DualCore/ahbl0_inst/lscc_ahbl_interconnect_inst/ahb_lite_bus.u_lscc_ahbl_bus/u_lscc_ahbl_decoder/genblk1[0].genblk1.u_lscc_ahbl_decoder_sel
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         13         0.2
+                               LUTGATE	         13         0.2
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+ahbl0_ipgen_lscc_ahbl_decoder_comp_1s_0_32768_32s_32767_15s	          1         0.2
+---------------------------------------------------
+Report for cell ahbl0_ipgen_lscc_ahbl_decoder_comp_1s_0_32768_32s_32767_15s
+   Instance path: DualCore/ahbl0_inst/lscc_ahbl_interconnect_inst/ahb_lite_bus.u_lscc_ahbl_bus/u_lscc_ahbl_decoder/genblk1[0].genblk1.u_lscc_ahbl_decoder_sel/genblk1[0].u_lscc_ahbl_decoder_comp
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         13         0.2
+                               LUTGATE	         13         0.2
+---------------------------------------------------
+Report for cell ahbl0_ipgen_lscc_ahbl_decoder_prim_8s_32s_1s_1_4_layer0
+   Instance path: DualCore/ahbl0_inst/lscc_ahbl_interconnect_inst/ahb_lite_bus.u_lscc_ahbl_bus/u_lscc_ahbl_decoder/genblk1[1].genblk1.u_lscc_ahbl_decoder_sel
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          2         0.0
+                               LUTGATE	          2         0.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+ahbl0_ipgen_lscc_ahbl_decoder_comp_1s_32768_2048_32s_34815_11s	          1         0.0
+---------------------------------------------------
+Report for cell ahbl0_ipgen_lscc_ahbl_decoder_comp_1s_32768_2048_32s_34815_11s
+   Instance path: DualCore/ahbl0_inst/lscc_ahbl_interconnect_inst/ahb_lite_bus.u_lscc_ahbl_bus/u_lscc_ahbl_decoder/genblk1[1].genblk1.u_lscc_ahbl_decoder_sel/genblk1[0].u_lscc_ahbl_decoder_comp
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          2         0.0
+                               LUTGATE	          2         0.0
+---------------------------------------------------
+Report for cell ahbl0_ipgen_lscc_ahbl_decoder_prim_8s_32s_1s_1_5_layer0
+   Instance path: DualCore/ahbl0_inst/lscc_ahbl_interconnect_inst/ahb_lite_bus.u_lscc_ahbl_bus/u_lscc_ahbl_decoder/genblk1[2].genblk1.u_lscc_ahbl_decoder_sel
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          3         0.0
+                               LUTGATE	          3         0.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+ahbl0_ipgen_lscc_ahbl_decoder_comp_1s_34816_2048_32s_36863_11s	          1         0.0
+---------------------------------------------------
+Report for cell ahbl0_ipgen_lscc_ahbl_decoder_comp_1s_34816_2048_32s_36863_11s
+   Instance path: DualCore/ahbl0_inst/lscc_ahbl_interconnect_inst/ahb_lite_bus.u_lscc_ahbl_bus/u_lscc_ahbl_decoder/genblk1[2].genblk1.u_lscc_ahbl_decoder_sel/genblk1[0].u_lscc_ahbl_decoder_comp
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          3         0.0
+                               LUTGATE	          3         0.0
+---------------------------------------------------
+Report for cell ahbl0_ipgen_lscc_ahbl_multiplexor_32s_32s_3s_0s
+   Instance path: DualCore/ahbl0_inst/lscc_ahbl_interconnect_inst/ahb_lite_bus.u_lscc_ahbl_bus/u_lscc_ahbl_multiplexor
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         75         1.0
+                               LUTGATE	         75         1.2
+                                PFUREG	          5         0.1
+---------------------------------------------------
+Report for cell ahbl0_ipgen_lscc_ahbl_default_slv_32s_2s_0s_1s_2s_0_1_2_3
+   Instance path: DualCore/ahbl0_inst/lscc_ahbl_interconnect_inst/ahb_lite_bus.u_lscc_ahbl_bus/u_lscc_ahbl_default_slv
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          2         0.0
+                               LUTGATE	          2         0.0
+                                PFUREG	          2         0.1
+---------------------------------------------------
+Report for cell ahbl1_Z14_layer0
+   Instance path: DualCore/ahbl1_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         91         1.2
+                               LUTGATE	         91         1.4
+                                PFUREG	         10         0.3
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+ahbl1_ipgen_lscc_ahbl_interconnect_Z8_layer0	          1         1.2
+---------------------------------------------------
+Report for cell ahbl1_ipgen_lscc_ahbl_interconnect_Z8_layer0
+   Instance path: DualCore/ahbl1_inst/lscc_ahbl_interconnect_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         91         1.2
+                               LUTGATE	         91         1.4
+                                PFUREG	         10         0.3
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+  ahbl1_ipgen_lscc_ahbl_bus_Z13_layer0	          1         1.2
+---------------------------------------------------
+Report for cell ahbl1_ipgen_lscc_ahbl_bus_Z13_layer0
+   Instance path: DualCore/ahbl1_inst/lscc_ahbl_interconnect_inst/ahb_lite_bus.u_lscc_ahbl_bus
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         91         1.2
+                               LUTGATE	         91         1.4
+                                PFUREG	         10         0.3
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+ahbl1_ipgen_lscc_ahbl_decoder_Z9_layer0	          1         0.2
+ahbl1_ipgen_lscc_ahbl_default_slv_32s_2s_0s_1s_2s_0_1_2_3	          1         0.0
+ahbl1_ipgen_lscc_ahbl_multiplexor_32s_32s_3s_0s	          1         1.0
+---------------------------------------------------
+Report for cell ahbl1_ipgen_lscc_ahbl_decoder_Z9_layer0
+   Instance path: DualCore/ahbl1_inst/lscc_ahbl_interconnect_inst/ahb_lite_bus.u_lscc_ahbl_bus/u_lscc_ahbl_decoder
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         14         0.2
+                               LUTGATE	         14         0.2
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+ahbl1_ipgen_lscc_ahbl_decoder_prim_8s_32s_1s_1_10_layer0	          1         0.1
+ahbl1_ipgen_lscc_ahbl_decoder_prim_8s_32s_1s_1_11_layer0	          1         0.0
+ahbl1_ipgen_lscc_ahbl_decoder_prim_8s_32s_1s_1_12_layer0	          1         0.0
+---------------------------------------------------
+Report for cell ahbl1_ipgen_lscc_ahbl_decoder_prim_8s_32s_1s_1_10_layer0
+   Instance path: DualCore/ahbl1_inst/lscc_ahbl_interconnect_inst/ahb_lite_bus.u_lscc_ahbl_bus/u_lscc_ahbl_decoder/genblk1[0].genblk1.u_lscc_ahbl_decoder_sel
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          9         0.1
+                               LUTGATE	          9         0.1
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+ahbl1_ipgen_lscc_ahbl_decoder_comp_1s_0_32768_32s_32767_15s	          1         0.1
+---------------------------------------------------
+Report for cell ahbl1_ipgen_lscc_ahbl_decoder_comp_1s_0_32768_32s_32767_15s
+   Instance path: DualCore/ahbl1_inst/lscc_ahbl_interconnect_inst/ahb_lite_bus.u_lscc_ahbl_bus/u_lscc_ahbl_decoder/genblk1[0].genblk1.u_lscc_ahbl_decoder_sel/genblk1[0].u_lscc_ahbl_decoder_comp
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          9         0.1
+                               LUTGATE	          9         0.1
+---------------------------------------------------
+Report for cell ahbl1_ipgen_lscc_ahbl_decoder_prim_8s_32s_1s_1_11_layer0
+   Instance path: DualCore/ahbl1_inst/lscc_ahbl_interconnect_inst/ahb_lite_bus.u_lscc_ahbl_bus/u_lscc_ahbl_decoder/genblk1[1].genblk1.u_lscc_ahbl_decoder_sel
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          2         0.0
+                               LUTGATE	          2         0.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+ahbl1_ipgen_lscc_ahbl_decoder_comp_1s_32768_2048_32s_34815_11s	          1         0.0
+---------------------------------------------------
+Report for cell ahbl1_ipgen_lscc_ahbl_decoder_comp_1s_32768_2048_32s_34815_11s
+   Instance path: DualCore/ahbl1_inst/lscc_ahbl_interconnect_inst/ahb_lite_bus.u_lscc_ahbl_bus/u_lscc_ahbl_decoder/genblk1[1].genblk1.u_lscc_ahbl_decoder_sel/genblk1[0].u_lscc_ahbl_decoder_comp
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          2         0.0
+                               LUTGATE	          2         0.0
+---------------------------------------------------
+Report for cell ahbl1_ipgen_lscc_ahbl_decoder_prim_8s_32s_1s_1_12_layer0
+   Instance path: DualCore/ahbl1_inst/lscc_ahbl_interconnect_inst/ahb_lite_bus.u_lscc_ahbl_bus/u_lscc_ahbl_decoder/genblk1[2].genblk1.u_lscc_ahbl_decoder_sel
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          3         0.0
+                               LUTGATE	          3         0.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+ahbl1_ipgen_lscc_ahbl_decoder_comp_1s_34816_1024_32s_35839_10s	          1         0.0
+---------------------------------------------------
+Report for cell ahbl1_ipgen_lscc_ahbl_decoder_comp_1s_34816_1024_32s_35839_10s
+   Instance path: DualCore/ahbl1_inst/lscc_ahbl_interconnect_inst/ahb_lite_bus.u_lscc_ahbl_bus/u_lscc_ahbl_decoder/genblk1[2].genblk1.u_lscc_ahbl_decoder_sel/genblk1[0].u_lscc_ahbl_decoder_comp
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          3         0.0
+                               LUTGATE	          3         0.0
+---------------------------------------------------
+Report for cell ahbl1_ipgen_lscc_ahbl_multiplexor_32s_32s_3s_0s
+   Instance path: DualCore/ahbl1_inst/lscc_ahbl_interconnect_inst/ahb_lite_bus.u_lscc_ahbl_bus/u_lscc_ahbl_multiplexor
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         74         1.0
+                               LUTGATE	         74         1.1
+                                PFUREG	          8         0.2
+---------------------------------------------------
+Report for cell ahbl1_ipgen_lscc_ahbl_default_slv_32s_2s_0s_1s_2s_0_1_2_3
+   Instance path: DualCore/ahbl1_inst/lscc_ahbl_interconnect_inst/ahb_lite_bus.u_lscc_ahbl_bus/u_lscc_ahbl_default_slv
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          2         0.0
+                               LUTGATE	          2         0.0
+                                PFUREG	          2         0.1
+---------------------------------------------------
+Report for cell ahbl2abp1
+   Instance path: DualCore/ahbl2abp1_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        138         1.8
+                               LUTGATE	        138         2.1
+                                PFUREG	        135         3.5
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+ahbl2abp1_ipgen_lscc_ahbl2apb_Z15_layer0	          1         1.8
+---------------------------------------------------
+Report for cell ahbl2abp1_ipgen_lscc_ahbl2apb_Z15_layer0
+   Instance path: DualCore/ahbl2abp1_inst/lscc_ahbl2apb_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        138         1.8
+                               LUTGATE	        138         2.1
+                                PFUREG	        135         3.5
+---------------------------------------------------
+Report for cell ahbl2apb0_32s
+   Instance path: DualCore/ahbl2apb0_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        148         1.9
+                               LUTGATE	        148         2.3
+                                PFUREG	        140         3.6
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+ahbl2apb0_ipgen_lscc_ahbl2apb_Z16_layer0	          1         1.9
+---------------------------------------------------
+Report for cell ahbl2apb0_ipgen_lscc_ahbl2apb_Z16_layer0
+   Instance path: DualCore/ahbl2apb0_inst/lscc_ahbl2apb_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        148         1.9
+                               LUTGATE	        148         2.3
+                                PFUREG	        140         3.6
+---------------------------------------------------
+Report for cell apb0_32s_1s_32768_1024_33792_1024
+   Instance path: DualCore/apb0_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         20         0.3
+                               LUTGATE	         20         0.3
+                                PFUREG	          3         0.1
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+apb0_ipgen_lscc_apb_interconnect_Z17_layer0	          1         0.3
+---------------------------------------------------
+Report for cell apb0_ipgen_lscc_apb_interconnect_Z17_layer0
+   Instance path: DualCore/apb0_inst/lscc_apb_interconnect_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         20         0.3
+                               LUTGATE	         20         0.3
+                                PFUREG	          3         0.1
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+    apb0_ipgen_lscc_apb_bus_Z19_layer0	          1         0.3
+---------------------------------------------------
+Report for cell apb0_ipgen_lscc_apb_bus_Z19_layer0
+   Instance path: DualCore/apb0_inst/lscc_apb_interconnect_inst/apb_bus.u_lscc_apb_bus
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         20         0.3
+                               LUTGATE	         20         0.3
+                                PFUREG	          3         0.1
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+apb0_ipgen_lscc_apb_decoder_Z18_layer0	          1         0.1
+apb0_ipgen_lscc_apb_multiplexor_32s_32s_32s_2s_0s	          1         0.1
+---------------------------------------------------
+Report for cell apb0_ipgen_lscc_apb_decoder_Z18_layer0
+   Instance path: DualCore/apb0_inst/lscc_apb_interconnect_inst/apb_bus.u_lscc_apb_bus/u_lscc_apb_decoder
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         10         0.1
+                               LUTGATE	         10         0.2
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+apb0_ipgen_lscc_apb_decoder_prim_32s_1s_32s_1s_1_32768_1024	          1         0.0
+---------------------------------------------------
+Report for cell apb0_ipgen_lscc_apb_decoder_prim_32s_1s_32s_1s_1_32768_1024
+   Instance path: DualCore/apb0_inst/lscc_apb_interconnect_inst/apb_bus.u_lscc_apb_bus/u_lscc_apb_decoder/genblk1[0].u_lscc_apb_decoder_sel
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          2         0.0
+                               LUTGATE	          2         0.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+apb0_ipgen_lscc_apb_decoder_comp_32s_32768_1024_32s_1s_33791_10s	          1         0.0
+---------------------------------------------------
+Report for cell apb0_ipgen_lscc_apb_decoder_comp_32s_32768_1024_32s_1s_33791_10s
+   Instance path: DualCore/apb0_inst/lscc_apb_interconnect_inst/apb_bus.u_lscc_apb_bus/u_lscc_apb_decoder/genblk1[0].u_lscc_apb_decoder_sel/genblk1[0].u_lscc_apb_decoder_comp
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          2         0.0
+                               LUTGATE	          2         0.0
+---------------------------------------------------
+Report for cell apb0_ipgen_lscc_apb_multiplexor_32s_32s_32s_2s_0s
+   Instance path: DualCore/apb0_inst/lscc_apb_interconnect_inst/apb_bus.u_lscc_apb_bus/u_lscc_apb_multiplexor
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         10         0.1
+                               LUTGATE	         10         0.2
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell cpu0_0s_0s_4294967295_0_4294967295_0_4294901760_21_layer0
+   Instance path: DualCore/cpu0_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                MULT18	       6.00        100.0
+                                  LUT4	       3702        48.2
+                               LUTGATE	       2974        45.6
+                                LUTCCU	        728        62.2
+                                PFUREG	       2031        52.0
+                                   EBR	          2         5.3
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                      secured_design_1	          1        48.2
+---------------------------------------------------
+Report for cell secured_design_1
+   Instance path: DualCore/cpu0_inst/riscvsmall_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                MULT18	       6.00        100.0
+                                  LUT4	       3702        48.2
+                               LUTGATE	       2974        45.6
+                                LUTCCU	        728        62.2
+                                PFUREG	       2031        52.0
+                                   EBR	          2         5.3
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                      secured_design_2	          1         2.0
+                     secured_design_22	          1        39.6
+                      secured_design_3	          1         0.3
+                      secured_design_4	          1         4.4
+                      secured_design_5	          1         1.7
+---------------------------------------------------
+Report for cell secured_design_2
+   Instance path: DualCore/secured_instance_2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        157         2.0
+                               LUTGATE	        157         2.4
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell secured_design_3
+   Instance path: DualCore/secured_instance_3
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         25         0.3
+                               LUTGATE	         25         0.4
+                                PFUREG	         18         0.5
+---------------------------------------------------
+Report for cell secured_design_4
+   Instance path: DualCore/secured_instance_4
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        337         4.4
+                               LUTGATE	        205         3.1
+                                LUTCCU	        132        11.3
+                                PFUREG	        137         3.5
+---------------------------------------------------
+Report for cell secured_design_5
+   Instance path: DualCore/secured_instance_5
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        134         1.7
+                               LUTGATE	        120         1.8
+                                LUTCCU	         14         1.2
+                                PFUREG	        267         6.8
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                     secured_design_18	          1         1.0
+                     secured_design_21	          1         0.2
+                      secured_design_6	          1         0.5
+---------------------------------------------------
+Report for cell secured_design_6
+   Instance path: DualCore/secured_instance_6
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         41         0.5
+                               LUTGATE	         27         0.4
+                                LUTCCU	         14         1.2
+                                PFUREG	         62         1.6
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                     secured_design_10	          1         0.0
+                     secured_design_11	          1         0.0
+                     secured_design_12	          1         0.0
+                     secured_design_13	          1         0.0
+                     secured_design_14	          1         0.0
+                     secured_design_15	          1         0.4
+                      secured_design_7	          1         0.0
+                      secured_design_8	          1         0.0
+                      secured_design_9	          1         0.0
+---------------------------------------------------
+Report for cell secured_design_7
+   Instance path: DualCore/secured_instance_7
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                PFUREG	          2         0.1
+---------------------------------------------------
+Report for cell secured_design_8
+   Instance path: DualCore/secured_instance_8
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                PFUREG	          1         0.0
+---------------------------------------------------
+Report for cell secured_design_9
+   Instance path: DualCore/secured_instance_9
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                PFUREG	          1         0.0
+---------------------------------------------------
+Report for cell secured_design_10
+   Instance path: DualCore/secured_instance_10
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                PFUREG	          1         0.0
+---------------------------------------------------
+Report for cell secured_design_11
+   Instance path: DualCore/secured_instance_11
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                PFUREG	          1         0.0
+---------------------------------------------------
+Report for cell secured_design_12
+   Instance path: DualCore/secured_instance_12
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                PFUREG	          1         0.0
+---------------------------------------------------
+Report for cell secured_design_13
+   Instance path: DualCore/secured_instance_13
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                PFUREG	          1         0.0
+---------------------------------------------------
+Report for cell secured_design_14
+   Instance path: DualCore/secured_instance_14
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                PFUREG	          1         0.0
+---------------------------------------------------
+Report for cell secured_design_15
+   Instance path: DualCore/secured_instance_15
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         34         0.4
+                               LUTGATE	         20         0.3
+                                LUTCCU	         14         1.2
+                                PFUREG	         53         1.4
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                     secured_design_16	          1         0.0
+---------------------------------------------------
+Report for cell secured_design_16
+   Instance path: DualCore/secured_instance_16
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          1         0.0
+                               LUTGATE	          1         0.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                     secured_design_17	          1         0.0
+---------------------------------------------------
+Report for cell secured_design_17
+   Instance path: DualCore/secured_instance_17
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          1         0.0
+                               LUTGATE	          1         0.0
+---------------------------------------------------
+Report for cell secured_design_18
+   Instance path: DualCore/secured_instance_18
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         78         1.0
+                               LUTGATE	         78         1.2
+                                PFUREG	        122         3.1
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                     secured_design_19	          1         0.0
+---------------------------------------------------
+Report for cell secured_design_19
+   Instance path: DualCore/secured_instance_19
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          2         0.0
+                               LUTGATE	          2         0.0
+                                PFUREG	          9         0.2
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                     secured_design_20	          1         0.0
+---------------------------------------------------
+Report for cell secured_design_20
+   Instance path: DualCore/secured_instance_20
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                PFUREG	          2         0.1
+---------------------------------------------------
+Report for cell secured_design_21
+   Instance path: DualCore/secured_instance_21
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         14         0.2
+                               LUTGATE	         14         0.2
+                                PFUREG	         78         2.0
+---------------------------------------------------
+Report for cell secured_design_22
+   Instance path: DualCore/secured_instance_22
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                MULT18	       6.00        100.0
+                                  LUT4	       3048        39.6
+                               LUTGATE	       2466        37.8
+                                LUTCCU	        582        49.7
+                                PFUREG	       1606        41.1
+                                   EBR	          2         5.3
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                     secured_design_23	          1         0.6
+---------------------------------------------------
+Report for cell secured_design_23
+   Instance path: DualCore/secured_instance_23
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         44         0.6
+                               LUTGATE	         44         0.7
+                                PFUREG	         35         0.9
+---------------------------------------------------
+Report for cell cpu1_0s_0s_4294967295_0_4294967295_0_4294901760_23_layer0
+   Instance path: DualCore/cpu1_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	       2812        36.6
+                               LUTGATE	       2416        37.1
+                                LUTCCU	        396        33.8
+                                PFUREG	       1167        29.9
+                                   EBR	          2         5.3
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                     secured_design_24	          1        36.6
+---------------------------------------------------
+Report for cell secured_design_24
+   Instance path: DualCore/cpu1_inst/riscvsmall_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	       2812        36.6
+                               LUTGATE	       2416        37.1
+                                LUTCCU	        396        33.8
+                                PFUREG	       1167        29.9
+                                   EBR	          2         5.3
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                     secured_design_25	          1         1.4
+                     secured_design_26	          1         0.3
+                     secured_design_27	          1         4.8
+                     secured_design_28	          1        30.1
+---------------------------------------------------
+Report for cell secured_design_25
+   Instance path: DualCore/secured_instance_25
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        105         1.4
+                               LUTGATE	        105         1.6
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell secured_design_26
+   Instance path: DualCore/secured_instance_26
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         24         0.3
+                               LUTGATE	         24         0.4
+                                PFUREG	         18         0.5
+---------------------------------------------------
+Report for cell secured_design_27
+   Instance path: DualCore/secured_instance_27
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        368         4.8
+                               LUTGATE	        236         3.6
+                                LUTCCU	        132        11.3
+                                PFUREG	        137         3.5
+---------------------------------------------------
+Report for cell secured_design_28
+   Instance path: DualCore/secured_instance_28
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	       2315        30.1
+                               LUTGATE	       2051        31.5
+                                LUTCCU	        264        22.6
+                                PFUREG	       1009        25.8
+                                   EBR	          2         5.3
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                     secured_design_29	          1         0.5
+---------------------------------------------------
+Report for cell secured_design_29
+   Instance path: DualCore/secured_instance_29
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         42         0.5
+                               LUTGATE	         42         0.6
+                                PFUREG	         35         0.9
+---------------------------------------------------
+Report for cell dualport_dualport
+   Instance path: DualCore/dualport_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         76         1.0
+                               LUTGATE	         76         1.2
+                                PFUREG	         41         1.0
+                                   EBR	          2         5.3
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+dualport_ipgen_lscc_sys_mem_Z24_layer0	          1         1.0
+---------------------------------------------------
+Report for cell dualport_ipgen_lscc_sys_mem_Z24_layer0
+   Instance path: DualCore/dualport_inst/lscc_sys_mem_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         76         1.0
+                               LUTGATE	         76         1.2
+                                PFUREG	         41         1.0
+                                   EBR	          2         5.3
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+dualport_ipgen_lscc_ahblmem_subordinate_Z25_layer0	          1         0.5
+dualport_ipgen_lscc_ahblmem_subordinate_Z25_layer0_0	          1         0.5
+    dualport_ipgen_lscc_mem_Z26_layer0	          1         0.0
+---------------------------------------------------
+Report for cell dualport_ipgen_lscc_ahblmem_subordinate_Z25_layer0
+   Instance path: DualCore/dualport_inst/lscc_sys_mem_inst/bridge_s0.genblk1.bridge_s0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         35         0.5
+                               LUTGATE	         35         0.5
+                                PFUREG	         20         0.5
+---------------------------------------------------
+Report for cell dualport_ipgen_lscc_ahblmem_subordinate_Z25_layer0_0
+   Instance path: DualCore/dualport_inst/lscc_sys_mem_inst/bridge_s1.genblk1.bridge_s1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         38         0.5
+                               LUTGATE	         38         0.6
+                                PFUREG	         21         0.5
+---------------------------------------------------
+Report for cell dualport_ipgen_lscc_mem_Z26_layer0
+   Instance path: DualCore/dualport_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          3         0.0
+                               LUTGATE	          3         0.0
+                                   EBR	          2         5.3
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+           lscc_ram_dp_true_Z31_layer0	          1         0.0
+---------------------------------------------------
+Report for cell lscc_ram_dp_true_Z31_layer0
+   Instance path: DualCore/dualport_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          2         5.3
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+      lscc_ram_dp_true_main_Z30_layer0	          1         0.0
+---------------------------------------------------
+Report for cell lscc_ram_dp_true_main_Z30_layer0
+   Instance path: DualCore/dualport_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          2         5.3
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+      lscc_ram_dp_true_inst_Z27_layer0	          1         0.0
+---------------------------------------------------
+Report for cell lscc_ram_dp_true_inst_Z27_layer0
+   Instance path: DualCore/dualport_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          2         5.3
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+      lscc_ram_dp_true_core_Z28_layer0	          1         0.0
+      lscc_ram_dp_true_core_Z29_layer0	          1         0.0
+---------------------------------------------------
+Report for cell lscc_ram_dp_true_core_Z29_layer0
+   Instance path: DualCore/dualport_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[0].xDATA[1].no_mem_file.u_mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         2.6
+---------------------------------------------------
+Report for cell lscc_ram_dp_true_core_Z28_layer0
+   Instance path: DualCore/dualport_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[0].xDATA[0].no_mem_file.u_mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         2.6
+---------------------------------------------------
+Report for cell gpio0
+   Instance path: DualCore/gpio0_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        121         1.6
+                               LUTGATE	        121         1.9
+                                 IOREG	          8        47.1
+                                 IOBUF	          8        42.1
+                                PFUREG	         89         2.3
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+      gpio0_ipgen_lscc_gpio_Z32_layer0	          1         1.6
+---------------------------------------------------
+Report for cell gpio0_ipgen_lscc_gpio_Z32_layer0
+   Instance path: DualCore/gpio0_inst/lscc_gpio_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        121         1.6
+                               LUTGATE	        121         1.9
+                                 IOREG	          8        47.1
+                                 IOBUF	          8        42.1
+                                PFUREG	         89         2.3
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+gpio0_ipgen_lscc_apb2lmmi_8s_6s_1s_1_2_4_8_4s	          1         0.1
+ gpio0_ipgen_lscc_gpio_lmmi_Z33_layer0	          1         1.4
+---------------------------------------------------
+Report for cell gpio0_ipgen_lscc_gpio_lmmi_Z33_layer0
+   Instance path: DualCore/gpio0_inst/lscc_gpio_inst/genblk1.lscc_gpio_lmmi_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        110         1.4
+                               LUTGATE	        110         1.7
+                                 IOREG	          8        47.1
+                                 IOBUF	          8        42.1
+                                PFUREG	         64         1.6
+---------------------------------------------------
+Report for cell gpio0_ipgen_lscc_apb2lmmi_8s_6s_1s_1_2_4_8_4s
+   Instance path: DualCore/gpio0_inst/lscc_gpio_inst/genblk2.lscc_apb2lmmi_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         11         0.1
+                               LUTGATE	         11         0.2
+                                PFUREG	         25         0.6
+---------------------------------------------------
+Report for cell gpio1
+   Instance path: DualCore/gpio1_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        118         1.5
+                               LUTGATE	        118         1.8
+                                 IOREG	          8        47.1
+                                 IOBUF	          8        42.1
+                                PFUREG	         89         2.3
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+      gpio1_ipgen_lscc_gpio_Z34_layer0	          1         1.5
+---------------------------------------------------
+Report for cell gpio1_ipgen_lscc_gpio_Z34_layer0
+   Instance path: DualCore/gpio1_inst/lscc_gpio_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        118         1.5
+                               LUTGATE	        118         1.8
+                                 IOREG	          8        47.1
+                                 IOBUF	          8        42.1
+                                PFUREG	         89         2.3
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+gpio1_ipgen_lscc_apb2lmmi_8s_6s_1s_1_2_4_8_4s	          1         0.1
+ gpio1_ipgen_lscc_gpio_lmmi_Z35_layer0	          1         1.4
+---------------------------------------------------
+Report for cell gpio1_ipgen_lscc_gpio_lmmi_Z35_layer0
+   Instance path: DualCore/gpio1_inst/lscc_gpio_inst/genblk1.lscc_gpio_lmmi_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        109         1.4
+                               LUTGATE	        109         1.7
+                                 IOREG	          8        47.1
+                                 IOBUF	          8        42.1
+                                PFUREG	         64         1.6
+---------------------------------------------------
+Report for cell gpio1_ipgen_lscc_apb2lmmi_8s_6s_1s_1_2_4_8_4s
+   Instance path: DualCore/gpio1_inst/lscc_gpio_inst/genblk2.lscc_apb2lmmi_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          9         0.1
+                               LUTGATE	          9         0.1
+                                PFUREG	         25         0.6
+---------------------------------------------------
+Report for cell osc0
+   Instance path: DualCore/osc0_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+        osc0_ipgen_lscc_osc_Z36_layer0	          1         0.0
+---------------------------------------------------
+Report for cell osc0_ipgen_lscc_osc_Z36_layer0
+   Instance path: DualCore/osc0_inst/lscc_osc_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+---------------------------------------------------
+Report for cell pll0
+   Instance path: DualCore/pll0_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          2         0.0
+                               LUTGATE	          2         0.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+        pll0_ipgen_lscc_pll_Z37_layer0	          1         0.0
+---------------------------------------------------
+Report for cell pll0_ipgen_lscc_pll_Z37_layer0
+   Instance path: DualCore/pll0_inst/lscc_pll_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          2         0.0
+                               LUTGATE	          2         0.0
+---------------------------------------------------
+Report for cell sysmem0_sysmem0
+   Instance path: DualCore/sysmem0_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         50         0.7
+                               LUTGATE	         50         0.8
+                                PFUREG	         17         0.4
+                                   EBR	         16        42.1
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+ sysmem0_ipgen_lscc_sys_mem_Z38_layer0	          1         0.7
+---------------------------------------------------
+Report for cell sysmem0_ipgen_lscc_sys_mem_Z38_layer0
+   Instance path: DualCore/sysmem0_inst/lscc_sys_mem_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         50         0.7
+                               LUTGATE	         50         0.8
+                                PFUREG	         17         0.4
+                                   EBR	         16        42.1
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+sysmem0_ipgen_lscc_ahblmem_subordinate_Z39_layer0_0	          1         0.5
+sysmem0_ipgen_lscc_ahblmem_subordinate_Z39_layer0_1	          1         0.1
+     sysmem0_ipgen_lscc_mem_Z40_layer0	          1         0.1
+---------------------------------------------------
+Report for cell sysmem0_ipgen_lscc_ahblmem_subordinate_Z39_layer0_1
+   Instance path: DualCore/sysmem0_inst/lscc_sys_mem_inst/bridge_s0.genblk1.bridge_s0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          4         0.1
+                               LUTGATE	          4         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell sysmem0_ipgen_lscc_ahblmem_subordinate_Z39_layer0_0
+   Instance path: DualCore/sysmem0_inst/lscc_sys_mem_inst/bridge_s1.genblk1.bridge_s1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         35         0.5
+                               LUTGATE	         35         0.5
+                                PFUREG	         14         0.4
+---------------------------------------------------
+Report for cell sysmem0_ipgen_lscc_mem_Z40_layer0
+   Instance path: DualCore/sysmem0_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         11         0.1
+                               LUTGATE	         11         0.2
+                                   EBR	         16        42.1
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+           lscc_ram_dp_true_Z59_layer0	          1         0.1
+---------------------------------------------------
+Report for cell lscc_ram_dp_true_Z59_layer0
+   Instance path: DualCore/sysmem0_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         11         0.1
+                               LUTGATE	         11         0.2
+                                   EBR	         16        42.1
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+      lscc_ram_dp_true_main_Z58_layer0	          1         0.1
+---------------------------------------------------
+Report for cell lscc_ram_dp_true_main_Z58_layer0
+   Instance path: DualCore/sysmem0_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         11         0.1
+                               LUTGATE	         11         0.2
+                                   EBR	         16        42.1
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+      lscc_ram_dp_true_inst_Z41_layer0	          1         0.1
+---------------------------------------------------
+Report for cell lscc_ram_dp_true_inst_Z41_layer0
+   Instance path: DualCore/sysmem0_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         11         0.1
+                               LUTGATE	         11         0.2
+                                   EBR	         16        42.1
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+      lscc_ram_dp_true_core_Z42_layer0	          1         0.1
+      lscc_ram_dp_true_core_Z43_layer0	          1         0.0
+      lscc_ram_dp_true_core_Z44_layer0	          1         0.0
+      lscc_ram_dp_true_core_Z45_layer0	          1         0.0
+      lscc_ram_dp_true_core_Z46_layer0	          1         0.0
+      lscc_ram_dp_true_core_Z47_layer0	          1         0.0
+      lscc_ram_dp_true_core_Z48_layer0	          1         0.0
+      lscc_ram_dp_true_core_Z49_layer0	          1         0.0
+      lscc_ram_dp_true_core_Z50_layer0	          1         0.0
+      lscc_ram_dp_true_core_Z51_layer0	          1         0.0
+      lscc_ram_dp_true_core_Z52_layer0	          1         0.0
+      lscc_ram_dp_true_core_Z53_layer0	          1         0.0
+      lscc_ram_dp_true_core_Z54_layer0	          1         0.0
+      lscc_ram_dp_true_core_Z55_layer0	          1         0.0
+      lscc_ram_dp_true_core_Z56_layer0	          1         0.0
+      lscc_ram_dp_true_core_Z57_layer0	          1         0.0
+---------------------------------------------------
+Report for cell lscc_ram_dp_true_core_Z43_layer0
+   Instance path: DualCore/sysmem0_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[0].xDATA[1].mem_file.u_mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         2.6
+---------------------------------------------------
+Report for cell lscc_ram_dp_true_core_Z47_layer0
+   Instance path: DualCore/sysmem0_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[0].xDATA[5].mem_file.u_mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         2.6
+---------------------------------------------------
+Report for cell lscc_ram_dp_true_core_Z51_layer0
+   Instance path: DualCore/sysmem0_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[0].xDATA[9].mem_file.u_mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         2.6
+---------------------------------------------------
+Report for cell lscc_ram_dp_true_core_Z53_layer0
+   Instance path: DualCore/sysmem0_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[0].xDATA[11].mem_file.u_mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         2.6
+---------------------------------------------------
+Report for cell lscc_ram_dp_true_core_Z55_layer0
+   Instance path: DualCore/sysmem0_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[0].xDATA[13].mem_file.u_mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         2.6
+---------------------------------------------------
+Report for cell lscc_ram_dp_true_core_Z44_layer0
+   Instance path: DualCore/sysmem0_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[0].xDATA[2].mem_file.u_mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         2.6
+---------------------------------------------------
+Report for cell lscc_ram_dp_true_core_Z48_layer0
+   Instance path: DualCore/sysmem0_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[0].xDATA[6].mem_file.u_mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         2.6
+---------------------------------------------------
+Report for cell lscc_ram_dp_true_core_Z46_layer0
+   Instance path: DualCore/sysmem0_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[0].xDATA[4].mem_file.u_mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          3         0.0
+                               LUTGATE	          3         0.0
+                                   EBR	          1         2.6
+---------------------------------------------------
+Report for cell lscc_ram_dp_true_core_Z52_layer0
+   Instance path: DualCore/sysmem0_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[0].xDATA[10].mem_file.u_mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         2.6
+---------------------------------------------------
+Report for cell lscc_ram_dp_true_core_Z50_layer0
+   Instance path: DualCore/sysmem0_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[0].xDATA[8].mem_file.u_mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          3         0.0
+                               LUTGATE	          3         0.0
+                                   EBR	          1         2.6
+---------------------------------------------------
+Report for cell lscc_ram_dp_true_core_Z54_layer0
+   Instance path: DualCore/sysmem0_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[0].xDATA[12].mem_file.u_mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          1         0.0
+                               LUTGATE	          1         0.0
+                                   EBR	          1         2.6
+---------------------------------------------------
+Report for cell lscc_ram_dp_true_core_Z45_layer0
+   Instance path: DualCore/sysmem0_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[0].xDATA[3].mem_file.u_mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         2.6
+---------------------------------------------------
+Report for cell lscc_ram_dp_true_core_Z49_layer0
+   Instance path: DualCore/sysmem0_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[0].xDATA[7].mem_file.u_mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         2.6
+---------------------------------------------------
+Report for cell lscc_ram_dp_true_core_Z42_layer0
+   Instance path: DualCore/sysmem0_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[0].xDATA[0].mem_file.u_mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          4         0.1
+                               LUTGATE	          4         0.1
+                                   EBR	          1         2.6
+---------------------------------------------------
+Report for cell lscc_ram_dp_true_core_Z56_layer0
+   Instance path: DualCore/sysmem0_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[0].xDATA[14].mem_file.u_mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         2.6
+---------------------------------------------------
+Report for cell lscc_ram_dp_true_core_Z57_layer0
+   Instance path: DualCore/sysmem0_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[0].xDATA[15].mem_file.u_mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         2.6
+---------------------------------------------------
+Report for cell sysmem1_sysmem1
+   Instance path: DualCore/sysmem1_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         51         0.7
+                               LUTGATE	         51         0.8
+                                PFUREG	         30         0.8
+                                   EBR	         16        42.1
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+ sysmem1_ipgen_lscc_sys_mem_Z60_layer0	          1         0.7
+---------------------------------------------------
+Report for cell sysmem1_ipgen_lscc_sys_mem_Z60_layer0
+   Instance path: DualCore/sysmem1_inst/lscc_sys_mem_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         51         0.7
+                               LUTGATE	         51         0.8
+                                PFUREG	         30         0.8
+                                   EBR	         16        42.1
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+sysmem1_ipgen_lscc_ahblmem_subordinate_Z61_layer0_0	          1         0.5
+sysmem1_ipgen_lscc_ahblmem_subordinate_Z61_layer0_1	          1         0.1
+     sysmem1_ipgen_lscc_mem_Z62_layer0	          1         0.1
+---------------------------------------------------
+Report for cell sysmem1_ipgen_lscc_ahblmem_subordinate_Z61_layer0_1
+   Instance path: DualCore/sysmem1_inst/lscc_sys_mem_inst/bridge_s0.genblk1.bridge_s0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          6         0.1
+                               LUTGATE	          6         0.1
+                                PFUREG	          4         0.1
+---------------------------------------------------
+Report for cell sysmem1_ipgen_lscc_ahblmem_subordinate_Z61_layer0_0
+   Instance path: DualCore/sysmem1_inst/lscc_sys_mem_inst/bridge_s1.genblk1.bridge_s1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         40         0.5
+                               LUTGATE	         40         0.6
+                                PFUREG	         26         0.7
+---------------------------------------------------
+Report for cell sysmem1_ipgen_lscc_mem_Z62_layer0
+   Instance path: DualCore/sysmem1_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          5         0.1
+                               LUTGATE	          5         0.1
+                                   EBR	         16        42.1
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+           lscc_ram_dp_true_Z81_layer0	          1         0.1
+---------------------------------------------------
+Report for cell lscc_ram_dp_true_Z81_layer0
+   Instance path: DualCore/sysmem1_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          4         0.1
+                               LUTGATE	          4         0.1
+                                   EBR	         16        42.1
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+      lscc_ram_dp_true_main_Z80_layer0	          1         0.1
+---------------------------------------------------
+Report for cell lscc_ram_dp_true_main_Z80_layer0
+   Instance path: DualCore/sysmem1_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          4         0.1
+                               LUTGATE	          4         0.1
+                                   EBR	         16        42.1
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+      lscc_ram_dp_true_inst_Z63_layer0	          1         0.1
+---------------------------------------------------
+Report for cell lscc_ram_dp_true_inst_Z63_layer0
+   Instance path: DualCore/sysmem1_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          4         0.1
+                               LUTGATE	          4         0.1
+                                   EBR	         16        42.1
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+      lscc_ram_dp_true_core_Z64_layer0	          1         0.0
+      lscc_ram_dp_true_core_Z65_layer0	          1         0.0
+      lscc_ram_dp_true_core_Z66_layer0	          1         0.0
+      lscc_ram_dp_true_core_Z67_layer0	          1         0.0
+      lscc_ram_dp_true_core_Z68_layer0	          1         0.0
+      lscc_ram_dp_true_core_Z69_layer0	          1         0.0
+      lscc_ram_dp_true_core_Z70_layer0	          1         0.0
+      lscc_ram_dp_true_core_Z71_layer0	          1         0.0
+      lscc_ram_dp_true_core_Z72_layer0	          1         0.0
+      lscc_ram_dp_true_core_Z73_layer0	          1         0.0
+      lscc_ram_dp_true_core_Z74_layer0	          1         0.0
+      lscc_ram_dp_true_core_Z75_layer0	          1         0.0
+      lscc_ram_dp_true_core_Z76_layer0	          1         0.0
+      lscc_ram_dp_true_core_Z77_layer0	          1         0.0
+      lscc_ram_dp_true_core_Z78_layer0	          1         0.0
+      lscc_ram_dp_true_core_Z79_layer0	          1         0.0
+---------------------------------------------------
+Report for cell lscc_ram_dp_true_core_Z65_layer0
+   Instance path: DualCore/sysmem1_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[0].xDATA[1].mem_file.u_mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         2.6
+---------------------------------------------------
+Report for cell lscc_ram_dp_true_core_Z69_layer0
+   Instance path: DualCore/sysmem1_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[0].xDATA[5].mem_file.u_mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         2.6
+---------------------------------------------------
+Report for cell lscc_ram_dp_true_core_Z73_layer0
+   Instance path: DualCore/sysmem1_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[0].xDATA[9].mem_file.u_mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         2.6
+---------------------------------------------------
+Report for cell lscc_ram_dp_true_core_Z75_layer0
+   Instance path: DualCore/sysmem1_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[0].xDATA[11].mem_file.u_mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         2.6
+---------------------------------------------------
+Report for cell lscc_ram_dp_true_core_Z77_layer0
+   Instance path: DualCore/sysmem1_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[0].xDATA[13].mem_file.u_mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         2.6
+---------------------------------------------------
+Report for cell lscc_ram_dp_true_core_Z66_layer0
+   Instance path: DualCore/sysmem1_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[0].xDATA[2].mem_file.u_mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         2.6
+---------------------------------------------------
+Report for cell lscc_ram_dp_true_core_Z70_layer0
+   Instance path: DualCore/sysmem1_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[0].xDATA[6].mem_file.u_mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         2.6
+---------------------------------------------------
+Report for cell lscc_ram_dp_true_core_Z68_layer0
+   Instance path: DualCore/sysmem1_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[0].xDATA[4].mem_file.u_mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          1         0.0
+                               LUTGATE	          1         0.0
+                                   EBR	          1         2.6
+---------------------------------------------------
+Report for cell lscc_ram_dp_true_core_Z74_layer0
+   Instance path: DualCore/sysmem1_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[0].xDATA[10].mem_file.u_mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         2.6
+---------------------------------------------------
+Report for cell lscc_ram_dp_true_core_Z72_layer0
+   Instance path: DualCore/sysmem1_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[0].xDATA[8].mem_file.u_mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          1         0.0
+                               LUTGATE	          1         0.0
+                                   EBR	          1         2.6
+---------------------------------------------------
+Report for cell lscc_ram_dp_true_core_Z76_layer0
+   Instance path: DualCore/sysmem1_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[0].xDATA[12].mem_file.u_mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          1         0.0
+                               LUTGATE	          1         0.0
+                                   EBR	          1         2.6
+---------------------------------------------------
+Report for cell lscc_ram_dp_true_core_Z67_layer0
+   Instance path: DualCore/sysmem1_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[0].xDATA[3].mem_file.u_mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         2.6
+---------------------------------------------------
+Report for cell lscc_ram_dp_true_core_Z71_layer0
+   Instance path: DualCore/sysmem1_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[0].xDATA[7].mem_file.u_mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         2.6
+---------------------------------------------------
+Report for cell lscc_ram_dp_true_core_Z64_layer0
+   Instance path: DualCore/sysmem1_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[0].xDATA[0].mem_file.u_mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          1         0.0
+                               LUTGATE	          1         0.0
+                                   EBR	          1         2.6
+---------------------------------------------------
+Report for cell lscc_ram_dp_true_core_Z78_layer0
+   Instance path: DualCore/sysmem1_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[0].xDATA[14].mem_file.u_mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         2.6
+---------------------------------------------------
+Report for cell lscc_ram_dp_true_core_Z79_layer0
+   Instance path: DualCore/sysmem1_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[0].xDATA[15].mem_file.u_mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         2.6
+---------------------------------------------------
+Report for cell uart0
+   Instance path: DualCore/uart0_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        261         3.4
+                               LUTGATE	        215         3.3
+                                LUTCCU	         46         3.9
+                                 IOREG	          1         5.9
+                                PFUREG	        146         3.7
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+      uart0_ipgen_lscc_uart_Z83_layer0	          1         3.4
+---------------------------------------------------
+Report for cell uart0_ipgen_lscc_uart_Z83_layer0
+   Instance path: DualCore/uart0_inst/lscc_uart_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        261         3.4
+                               LUTGATE	        215         3.3
+                                LUTCCU	         46         3.9
+                                 IOREG	          1         5.9
+                                PFUREG	        146         3.7
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+uart0_ipgen_lscc_uart_intface_Z82_layer0	          1         0.8
+uart0_ipgen_lscc_uart_rxcver_8s_0s_5s_1_2_4_8_16_MachXO3D	          1         1.4
+uart0_ipgen_lscc_uart_txmitt_8s_0s_7s_1_2_4_8_16_32_64	          1         1.2
+---------------------------------------------------
+Report for cell uart0_ipgen_lscc_uart_intface_Z82_layer0
+   Instance path: DualCore/uart0_inst/lscc_uart_inst/u_intface
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         59         0.8
+                               LUTGATE	         59         0.9
+                                PFUREG	         48         1.2
+---------------------------------------------------
+Report for cell uart0_ipgen_lscc_uart_rxcver_8s_0s_5s_1_2_4_8_16_MachXO3D
+   Instance path: DualCore/uart0_inst/lscc_uart_inst/u_rxcver
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        107         1.4
+                               LUTGATE	         79         1.2
+                                LUTCCU	         28         2.4
+                                 IOREG	          1         5.9
+                                PFUREG	         56         1.4
+---------------------------------------------------
+Report for cell uart0_ipgen_lscc_uart_txmitt_8s_0s_7s_1_2_4_8_16_32_64
+   Instance path: DualCore/uart0_inst/lscc_uart_inst/u_txmitt
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         95         1.2
+                               LUTGATE	         77         1.2
+                                LUTCCU	         18         1.5
+                                PFUREG	         42         1.1

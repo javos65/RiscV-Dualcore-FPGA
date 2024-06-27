@@ -1,0 +1,4 @@
+-gui
+-msgset "C:/Users/javos/workspace/DualCore/promote.xml"
+
+-g REGISTER_INIT:ON

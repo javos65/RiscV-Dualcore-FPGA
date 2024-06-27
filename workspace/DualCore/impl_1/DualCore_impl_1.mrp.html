@@ -1,0 +1,962 @@
+<HTML>
+<HEAD>
+<TITLE>Map Report</TITLE>
+<link href="" rel="stylesheet" type="text/css" media="screen"/>
+<link href="" rel="stylesheet" type="text/css" media="print"/>
+<style type="text/css">
+#toc {
+  position: fixed;
+  right: 2px;
+  top: 2px;
+  padding: 2px 5px 2px 5px;
+  background-color:rgba(210,210,210,0.1);
+  border-style: solid;
+  border-color: rgba(192,192,192,0.8);
+  border-width:1px;
+}
+#toc_list {
+  display: none;
+  }
+</style>
+
+<script type="text/javascript">
+<!--
+function showTocList() {
+var a = document.getElementById("toc_list");
+a.style.display = "block";
+}
+
+function hideTocList() {
+var a = document.getElementById("toc_list");
+if (a)
+    a.style.display = "none";
+}
+
+//-->
+</script>
+
+</HEAD>
+
+<BODY>
+
+<DIV id="content" onclick="hideTocList()"><PRE>
+<A name="Mrp"></A>                         Lattice Mapping Report File
+
+Design:  DualCore
+Family:  LFD2NX
+Device:  LFD2NX-40
+Package: CABGA196
+Performance Grade:  7_High-Performance_1.0V
+
+Mapper:    version Radiant Software (64-bit) 2023.2.1.288.0
+Mapped on: Thu Jun 27 16:46:36 2024
+
+<A name="mrp_di"></A><B><U><big>Design Information</big></U></B>
+
+Command line:   map -i DualCore_impl_1_syn.udb -pdc
+     C:/Users/javos/workspace/DualCore/source/impl_1/DualCore.pdc -o
+     DualCore_impl_1_map.udb -mp DualCore_impl_1.mrp -hierrpt -gui -msgset
+     C:/Users/javos/workspace/DualCore/promote.xml
+
+<A name="mrp_ds"></A><B><U><big>Design Summary</big></U></B>
+
+   Number of registers:        3922 out of 32706 (12%)
+      Number of SLICE         registers: 3905 out of 32256 (12%)
+      Number of PIO Input     registers:   17 out of   150 (11%)
+      Number of PIO Output    registers:    0 out of   150 (0%)
+      Number of PIO Tri-State registers:    0 out of   150 (0%)
+   Number of LUT4s:            7688 out of 32256 (24%)
+      Number used as logic LUT4s:                       6518
+      Number used as distributed RAM:                      0 (6 per 16X4 RAM)
+      Number used as ripple logic:                      1170 (2 per CCU2)
+   Number of PIOs used/reserved:   25 out of   150 (17%)
+      Number of PIOs reserved:      6 (per sysConfig and/or prohibit constraint)
+      Number of PIOs used:         19
+        Number of PIOs used for single ended IO:        19
+        Number of PIO pairs used for differential IO:    0
+        Number allocated to regular speed PIOs:    19 out of   92 (21%)
+        Number allocated to high speed PIOs:        0 out of   58 (0%)
+   Number of Dedicated IO used for ADC/PCIE:    0 out of    4 (0%)
+   Number of IDDR/ODDR/TDDR functions used:      0 out of   358 (0%)
+   Number of IOs using at least one DDR function: 0 (0 differential)
+   Number of Block RAMs:          38 out of 84 (45%)
+   Number of Large RAMs:          0 out of 2 (0%)
+   Number of Logical DSP Functions:
+      Number of Pre-Adders (9+9):    0 out of 112 (0%)
+      Number of Multipliers (18x18): 6 out of 56 (11%)
+         Number of 9X9:        0 (1 18x18 = 2   9x9)
+         Number of 18x18:      2 (1 18x18 = 1 18x18)
+         Number of 18x36:      2 (2 18x18 = 1 18x36)
+         Number of 36x36:      0 (4 18x18 = 1 36x36)
+      Number of 54-bit Accumulators: 0 out of 28 (0%)
+      Number of 18-bit Registers:    2 out of 112 (2%)
+   Number of Physical DSP Components:
+      Number of PREADD9:             12 out of 112 (11%)
+         Used PREADD9:               0
+         Bypassed PREADD9:           12
+      Number of MULT9:               12 out of 112 (11%)
+         Used MULT9:                 12
+         Bypassed MULT9:             0
+      Number of MULT18:              6 out of 56 (11%)
+         Used MULT18:                6
+         Disabled MULT18:            0
+      Number of MULT18X36:           2 out of 28 (7%)
+         Used MULT18X36:             2
+         Disabled MULT18X36:         0
+      Number of MULT36:              0 out of 14 (0%)
+      Number of ACC54:               0 out of 28 (0%)
+      Number of REG18:               10 out of 112 (9%)
+         Used REG18:                 2
+         Bypassed REG18:             8
+   Number of ALUREGs:             0 out of 1 (0%)
+   Number of PLLs:                1 out of 3 (33%)
+   Number of DDRDLLs:             0 out of 2 (0%)
+   Number of DLLDELs:             0 out of 10 (0%)
+   Number of DQSs:                0 out of 4 (0%)
+   Number of DCSs:                0 out of 1 (0%)
+   Number of DCCs:                1 out of 62 (2%)
+   Number of PCLKDIVs:            0 out of 1 (0%)
+   Number of ECLKDIVs:            0 out of 12 (0%)
+   Number of ECLKSYNCs:           0 out of 12 (0%)
+   Number of ADC Blocks:          0 out of 1 (0%)
+   Number of SGMIICDRs:           0 out of 2 (0%)
+   Number of PMUs:                0 out of 1 (0%)
+   Number of BNKREF18s:           0 out of 3 (0%)
+   Number of BNKREF33s:           0 out of 5 (0%)
+   Number of PCIEs:               0 out of 1 (0%)
+   Number of I2CFIFOs:            0 out of 1 (0%)
+   Number of Oscillators:         1 out of 1 (100%)
+   Number of GSR:                 0 out of 1 (0%)
+   Number of Cryptographic Block: 0 out of 1 (0%)
+   Number of Config IP:           0 out of 1 (0%)
+                 TSALL:           0 out of 1 (0%)
+   Number of JTAG:                1 out of 1 (100%)
+   Number of Config LMMI:         0 out of 1 (0%)
+   Number of Config MULTIBOOT:    0 out of 1 (0%)
+   Number of SED:                 0 out of 1 (0%)
+   Number of Config WDT:          0 out of 1 (0%)
+   Number of PCSs:                0 out of 1 (0%)
+   Number of Clocks:  5
+      Net pll0_inst_clkop_o_net: 3222 loads, 3222 rising, 0 falling (Driver: Pin
+     pll0_inst.lscc_pll_inst.gen_no_refclk_mon.u_PLL.PLL_inst/CLKOP)
+      Net pll0_inst_clkos_o_net: 447 loads, 447 rising, 0 falling (Driver: Pin
+     pll0_inst.lscc_pll_inst.gen_no_refclk_mon.u_PLL.PLL_inst/CLKOS)
+      Net secured_signal_1783: 59 loads, 5 rising, 54 falling (Driver: Pin
+     secured_comp_1477/JTCK)
+      Net secured_signal_1814: 83 loads, 82 rising, 1 falling (Driver: Pin
+     secured_comp_1436/CLKO)
+      Net osc0_inst_hf_clk_out_o_net: 1 loads, 1 rising, 0 falling (Driver: Pin
+     osc0_inst.lscc_osc_inst.gen_osca.u_OSC_A.OSCA_inst/HFCLKOUT)
+   Number of Clock Enables:  193
+      Net VCC: 4 loads, 0 SLICEs
+      Net ahbl0_inst.lscc_ahbl_interconnect_inst.ahb_lite_bus.u_lscc_ahbl_bus.u_
+     lscc_ahbl_multiplexor.N_117_i: 1 loads, 1 SLICEs
+      Net ahbl0_inst.lscc_ahbl_interconnect_inst.ahb_lite_bus.u_lscc_ahbl_bus.u_
+     lscc_ahbl_multiplexor.ahbl_hsel_dec_r_0_sqmuxa: 4 loads, 4 SLICEs
+      Net ahbl1_inst.lscc_ahbl_interconnect_inst.ahb_lite_bus.u_lscc_ahbl_bus.u_
+     lscc_ahbl_multiplexor.N_942_i: 1 loads, 1 SLICEs
+      Net ahbl1_inst.lscc_ahbl_interconnect_inst.ahb_lite_bus.u_lscc_ahbl_bus.u_
+     lscc_ahbl_multiplexor.ahbl_hsel_dec_r_0_sqmuxa: 7 loads, 7 SLICEs
+      Net ahbl2abp1_inst.lscc_ahbl2apb_inst.ahbl_hrdata_o8: 32 loads, 32 SLICEs
+      Net ahbl2abp1_inst.lscc_ahbl2apb_inst.cs_ahbl_sm_RNIO529[2]: 8 loads, 8
+     SLICEs
+      Net ahbl2abp1_inst.lscc_ahbl2apb_inst.ahbl_req_rdy_w: 9 loads, 9 SLICEs
+      Net ahbl2abp1_inst.lscc_ahbl2apb_inst.h_pend_r5: 10 loads, 10 SLICEs
+      Net ahbl2abp1_inst.lscc_ahbl2apb_inst.N_218_i: 32 loads, 32 SLICEs
+      Net ahbl2abp1_inst.lscc_ahbl2apb_inst.ns_apb_sm_0_sqmuxa_1: 18 loads, 18
+     SLICEs
+      Net ahbl2apb0_inst.lscc_ahbl2apb_inst.ahbl_hrdata_o_0_sqmuxa_i: 8 loads, 8
+     SLICEs
+      Net ahbl2apb0_inst.lscc_ahbl2apb_inst.un1_N_5_mux: 27 loads, 27 SLICEs
+      Net ahbl2apb0_inst.lscc_ahbl2apb_inst.ns_apb_sm_0_sqmuxa: 8 loads, 8
+     SLICEs
+      Net ahbl2apb0_inst.lscc_ahbl2apb_inst.p_pslverr_r_5_0: 8 loads, 8 SLICEs
+      Net ahbl2apb0_inst.lscc_ahbl2apb_inst.p_pslverr_r_RNIAR9LA: 27 loads, 27
+     SLICEs
+      Net ahbl2apb0_inst.lscc_ahbl2apb_inst.ns_apb_sm_0_sqmuxa_1: 35 loads, 35
+     SLICEs
+      Net ahbl2apb0_inst.lscc_ahbl2apb_inst.un1_ns_apb_sm_0_sqmuxa: 1 loads, 1
+     SLICEs
+      Net ahbl2apb0_inst_APB_M0_interconnect_PSELx: 2 loads, 2 SLICEs
+      Net secured_signal_1081: 34 loads, 34 SLICEs
+      Net secured_signal_1083: 3 loads, 3 SLICEs
+      Net secured_signal_1379: 2 loads, 2 SLICEs
+      Net secured_signal_1385: 2 loads, 2 SLICEs
+      Net secured_signal_1386: 2 loads, 2 SLICEs
+      Net secured_signal_1411: 1 loads, 1 SLICEs
+      Net secured_signal_1652: 64 loads, 64 SLICEs
+      Net secured_signal_1653: 8 loads, 8 SLICEs
+      Net secured_signal_1654: 8 loads, 8 SLICEs
+      Net secured_signal_1655: 8 loads, 8 SLICEs
+      Net secured_signal_1656: 8 loads, 8 SLICEs
+      Net secured_signal_1657: 8 loads, 8 SLICEs
+      Net secured_signal_1658: 8 loads, 8 SLICEs
+      Net secured_signal_1659: 8 loads, 8 SLICEs
+      Net secured_signal_1660: 8 loads, 8 SLICEs
+      Net secured_signal_1778: 2 loads, 2 SLICEs
+      Net secured_signal_1789: 1 loads, 1 SLICEs
+      Net secured_signal_1795: 1 loads, 1 SLICEs
+      Net secured_signal_1797: 2 loads, 2 SLICEs
+      Net secured_signal_1846: 23 loads, 23 SLICEs
+      Net secured_signal_1907: 17 loads, 17 SLICEs
+      Net secured_signal_1947: 4 loads, 4 SLICEs
+      Net secured_signal_1955: 4 loads, 4 SLICEs
+      Net secured_signal_1956: 1 loads, 1 SLICEs
+      Net secured_signal_1960: 2 loads, 2 SLICEs
+      Net secured_signal_1963: 32 loads, 32 SLICEs
+      Net secured_signal_1970: 34 loads, 34 SLICEs
+      Net secured_signal_2094: 2 loads, 2 SLICEs
+      Net secured_signal_2104: 32 loads, 32 SLICEs
+      Net secured_signal_2175: 1 loads, 1 SLICEs
+      Net secured_signal_2178: 8 loads, 8 SLICEs
+      Net secured_signal_2180: 1 loads, 1 SLICEs
+      Net secured_signal_2187: 65 loads, 65 SLICEs
+      Net cpu0_inst_AHBL_M0_INSTR_interconnect_HREADYOUT: 1 loads, 1 SLICEs
+      Net secured_signal_2265: 32 loads, 32 SLICEs
+      Net secured_signal_2267: 13 loads, 13 SLICEs
+      Net secured_signal_2269: 32 loads, 32 SLICEs
+      Net secured_signal_2361: 33 loads, 33 SLICEs
+      Net secured_signal_2362: 2 loads, 0 SLICEs
+      Net secured_signal_2510: 32 loads, 32 SLICEs
+      Net secured_signal_2521: 32 loads, 32 SLICEs
+      Net secured_signal_2760: 1 loads, 1 SLICEs
+      Net secured_signal_2780: 5 loads, 5 SLICEs
+      Net secured_signal_2781: 2 loads, 2 SLICEs
+      Net secured_signal_3015: 1 loads, 1 SLICEs
+      Net secured_signal_3068: 1 loads, 1 SLICEs
+      Net secured_signal_3093: 1 loads, 1 SLICEs
+      Net secured_signal_3118: 1 loads, 1 SLICEs
+      Net secured_signal_3119: 2 loads, 2 SLICEs
+      Net secured_signal_3120: 1 loads, 1 SLICEs
+      Net secured_signal_3121: 1 loads, 1 SLICEs
+      Net secured_signal_3411: 1 loads, 1 SLICEs
+      Net secured_signal_3413: 1 loads, 1 SLICEs
+      Net secured_signal_3416: 32 loads, 32 SLICEs
+      Net secured_signal_3454: 1 loads, 1 SLICEs
+      Net secured_signal_3457: 16 loads, 16 SLICEs
+      Net secured_signal_3460: 3 loads, 3 SLICEs
+      Net secured_signal_3462: 32 loads, 32 SLICEs
+      Net secured_signal_3464: 30 loads, 30 SLICEs
+      Net secured_signal_3522: 1 loads, 1 SLICEs
+      Net secured_signal_3527: 1 loads, 1 SLICEs
+      Net secured_signal_3531: 180 loads, 180 SLICEs
+      Net secured_signal_3536: 1 loads, 1 SLICEs
+      Net secured_signal_3644: 35 loads, 35 SLICEs
+      Net secured_signal_4029: 1 loads, 1 SLICEs
+      Net secured_signal_4293: 1 loads, 1 SLICEs
+      Net secured_signal_4296: 5 loads, 5 SLICEs
+      Net secured_signal_4300: 1 loads, 1 SLICEs
+      Net secured_signal_4397: 1 loads, 1 SLICEs
+      Net secured_signal_4407: 32 loads, 32 SLICEs
+      Net secured_signal_4462: 240 loads, 236 SLICEs
+      Net secured_signal_4474: 32 loads, 32 SLICEs
+      Net secured_signal_4555: 1 loads, 1 SLICEs
+      Net secured_signal_4569: 36 loads, 36 SLICEs
+      Net secured_signal_4578: 1 loads, 1 SLICEs
+      Net secured_signal_4603: 32 loads, 32 SLICEs
+      Net secured_signal_5183: 1 loads, 1 SLICEs
+      Net secured_signal_5831: 32 loads, 32 SLICEs
+      Net secured_signal_5843: 14 loads, 14 SLICEs
+      Net secured_signal_5850: 33 loads, 33 SLICEs
+      Net secured_signal_6625: 32 loads, 32 SLICEs
+      Net secured_signal_8581: 3 loads, 3 SLICEs
+      Net secured_signal_8736: 34 loads, 34 SLICEs
+      Net secured_signal_8777: 2 loads, 2 SLICEs
+      Net secured_signal_8778: 2 loads, 2 SLICEs
+      Net secured_signal_8786: 2 loads, 2 SLICEs
+      Net secured_signal_8817: 1 loads, 1 SLICEs
+      Net secured_signal_8938: 8 loads, 8 SLICEs
+      Net secured_signal_8939: 8 loads, 8 SLICEs
+      Net secured_signal_8940: 8 loads, 8 SLICEs
+      Net secured_signal_8941: 8 loads, 8 SLICEs
+      Net secured_signal_8942: 8 loads, 8 SLICEs
+      Net secured_signal_8943: 8 loads, 8 SLICEs
+      Net secured_signal_8944: 8 loads, 8 SLICEs
+      Net secured_signal_8945: 8 loads, 8 SLICEs
+      Net secured_signal_9019: 64 loads, 64 SLICEs
+      Net cpu1_inst_AHBL_M0_INSTR_interconnect_HREADYOUT: 1 loads, 1 SLICEs
+      Net secured_signal_9245: 32 loads, 32 SLICEs
+      Net secured_signal_9247: 13 loads, 13 SLICEs
+      Net secured_signal_9249: 32 loads, 32 SLICEs
+      Net secured_signal_9313: 2 loads, 2 SLICEs
+      Net secured_signal_9321: 2 loads, 0 SLICEs
+      Net secured_signal_9476: 5 loads, 5 SLICEs
+      Net secured_signal_9561: 1 loads, 1 SLICEs
+      Net secured_signal_9566: 1 loads, 1 SLICEs
+      Net secured_signal_9727: 1 loads, 1 SLICEs
+      Net secured_signal_9729: 1 loads, 1 SLICEs
+      Net secured_signal_9766: 1 loads, 1 SLICEs
+      Net secured_signal_9780: 1 loads, 1 SLICEs
+      Net secured_signal_9782: 1 loads, 1 SLICEs
+      Net secured_signal_9791: 2 loads, 2 SLICEs
+      Net secured_signal_9793: 32 loads, 32 SLICEs
+      Net secured_signal_9820: 1 loads, 1 SLICEs
+      Net secured_signal_10064: 14 loads, 14 SLICEs
+      Net secured_signal_10071: 1 loads, 1 SLICEs
+      Net secured_signal_10073: 1 loads, 1 SLICEs
+      Net secured_signal_10128: 16 loads, 16 SLICEs
+      Net secured_signal_10132: 3 loads, 3 SLICEs
+      Net secured_signal_10135: 32 loads, 32 SLICEs
+      Net secured_signal_10137: 30 loads, 30 SLICEs
+      Net secured_signal_10151: 32 loads, 32 SLICEs
+      Net secured_signal_10168: 35 loads, 35 SLICEs
+      Net secured_signal_10175: 1 loads, 1 SLICEs
+      Net secured_signal_10226: 181 loads, 181 SLICEs
+      Net secured_signal_10234: 1 loads, 1 SLICEs
+      Net secured_signal_10543: 1 loads, 1 SLICEs
+      Net secured_signal_10546: 1 loads, 1 SLICEs
+      Net secured_signal_10798: 5 loads, 5 SLICEs
+      Net secured_signal_11052: 102 loads, 102 SLICEs
+      Net secured_signal_11111: 2 loads, 2 SLICEs
+      Net secured_signal_12220: 32 loads, 32 SLICEs
+      Net secured_signal_12747: 32 loads, 32 SLICEs
+      Net dualport_inst.lscc_sys_mem_inst.N_767_i: 2 loads, 0 SLICEs
+      Net dualport_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.mem1_r
+     eq_arb_w: 2 loads, 0 SLICEs
+      Net
+     gpio0_inst.lscc_gpio_inst.genblk1.lscc_gpio_lmmi_0.int_enable_r_1_sqmuxa: 8
+     loads, 8 SLICEs
+      Net
+     gpio0_inst.lscc_gpio_inst.genblk1.lscc_gpio_lmmi_0.int_type_r_1_sqmuxa: 8
+     loads, 8 SLICEs
+      Net
+     gpio0_inst.lscc_gpio_inst.genblk1.lscc_gpio_lmmi_0.direction_r_1_sqmuxa: 8
+     loads, 8 SLICEs
+      Net
+     gpio0_inst.lscc_gpio_inst.genblk1.lscc_gpio_lmmi_0.int_method_r_1_sqmuxa: 8
+     loads, 8 SLICEs
+      Net
+     gpio0_inst.lscc_gpio_inst.genblk1.lscc_gpio_lmmi_0.un1_gpio_out_r22_i_a2: 8
+     loads, 8 SLICEs
+      Net gpio0_inst.lscc_gpio_inst.genblk2.lscc_apb2lmmi_0.bus_sm_cs[1]: 2
+     loads, 2 SLICEs
+      Net gpio0_inst.lscc_gpio_inst.genblk2.lscc_apb2lmmi_0.lmmi_offset_nxt_0_sq
+     muxa: 12 loads, 12 SLICEs
+      Net gpio0_inst.lscc_gpio_inst.genblk2.lscc_apb2lmmi_0.N_1026_i: 8 loads, 8
+     SLICEs
+      Net gpio0_inst.lscc_gpio_inst.genblk2.lscc_apb2lmmi_0.apb_pslverr_nxt_1_sq
+     muxa_1_i_0_0: 1 loads, 1 SLICEs
+      Net
+     gpio1_inst.lscc_gpio_inst.genblk1.lscc_gpio_lmmi_0.int_method_r_1_sqmuxa: 8
+     loads, 8 SLICEs
+      Net
+     gpio1_inst.lscc_gpio_inst.genblk1.lscc_gpio_lmmi_0.int_enable_r_1_sqmuxa: 8
+     loads, 8 SLICEs
+      Net
+     gpio1_inst.lscc_gpio_inst.genblk1.lscc_gpio_lmmi_0.direction_r_1_sqmuxa: 8
+     loads, 8 SLICEs
+      Net
+     gpio1_inst.lscc_gpio_inst.genblk1.lscc_gpio_lmmi_0.int_type_r_1_sqmuxa: 8
+     loads, 8 SLICEs
+      Net gpio1_inst.lscc_gpio_inst.genblk1.lscc_gpio_lmmi_0.un1_gpio_out_r22_i_
+     a2_0: 8 loads, 8 SLICEs
+      Net gpio1_inst.lscc_gpio_inst.genblk2.lscc_apb2lmmi_0.bus_sm_cs[1]: 2
+     loads, 2 SLICEs
+      Net gpio1_inst.lscc_gpio_inst.genblk2.lscc_apb2lmmi_0.apb_pslverr_nxt_1_sq
+     muxa_1_i_0: 1 loads, 1 SLICEs
+      Net gpio1_inst.lscc_gpio_inst.genblk2.lscc_apb2lmmi_0.apb_pslverr_nxt_0_sq
+     muxa: 8 loads, 8 SLICEs
+      Net gpio1_inst.lscc_gpio_inst.genblk2.lscc_apb2lmmi_0.lmmi_offset_nxt_0_sq
+     muxa: 12 loads, 12 SLICEs
+      Net sysmem0_inst.lscc_sys_mem_inst.un4_mem_request_o_i_a3_i: 16 loads, 0
+     SLICEs
+      Net sysmem0_inst.lscc_sys_mem_inst.N_764_i: 16 loads, 0 SLICEs
+      Net sysmem1_inst.lscc_sys_mem_inst.N_223_i: 16 loads, 0 SLICEs
+      Net sysmem1_inst.lscc_sys_mem_inst.mem1_req_arb_w: 16 loads, 0 SLICEs
+      Net uart0_inst.lscc_uart_inst.u_intface.ier_1_sqmuxa: 3 loads, 3 SLICEs
+      Net uart0_inst.lscc_uart_inst.u_intface.lcr_1_sqmuxa: 7 loads, 7 SLICEs
+      Net uart0_inst.lscc_uart_inst.u_intface.data_8bit26: 8 loads, 8 SLICEs
+      Net uart0_inst.lscc_uart_inst.u_intface.divisorce[0]: 8 loads, 8 SLICEs
+      Net uart0_inst.lscc_uart_inst.u_intface.divisorce[8]: 8 loads, 8 SLICEs
+      Net uart0_inst.lscc_uart_inst.u_intface.thr_nonfifo_0_sqmuxa: 8 loads, 8
+     SLICEs
+      Net uart0_inst.lscc_uart_inst.u_rxcver.un1_rbr_rd_1: 1 loads, 1 SLICEs
+      Net uart0_inst.lscc_uart_inst.u_rxcver.N_30_i: 1 loads, 1 SLICEs
+      Net uart0_inst.lscc_uart_inst.u_rxcver.un1_cs_state_0_sqmuxa_2_i: 1 loads,
+     1 SLICEs
+      Net uart0_inst.lscc_uart_inst.u_rxcver.un1_cs_state_3_i: 1 loads, 1 SLICEs
+      Net uart0_inst.lscc_uart_inst.u_rxcver.N_4_i_0: 8 loads, 8 SLICEs
+      Net uart0_inst.lscc_uart_inst.u_rxcver.un1_hunt_1: 1 loads, 1 SLICEs
+      Net uart0_inst.lscc_uart_inst.u_rxcver.N_28_i: 12 loads, 12 SLICEs
+      Net uart0_inst.lscc_uart_inst.u_rxcver.un1_lsr_rd: 4 loads, 4 SLICEs
+      Net uart0_inst.lscc_uart_inst.u_txmitt.tx_state[0]: 17 loads, 17 SLICEs
+      Net uart0_inst.lscc_uart_inst.u_txmitt.N_1030_i: 9 loads, 9 SLICEs
+      Net uart0_inst.lscc_uart_inst.u_txmitt.un1_thr_wr_1: 1 loads, 1 SLICEs
+      Net uart0_inst.lscc_uart_inst.u_txmitt.un1_tsr_empty8: 1 loads, 1 SLICEs
+   Number of LSRs:  26
+      Net VCC: 22 loads, 0 SLICEs
+      Net pll0_inst_lock_o_net: 2 loads, 2 SLICEs
+      Net equation_module0_inst_O_net: 398 loads, 398 SLICEs
+      Net equation_module0_inst_O_net_i: 294 loads, 254 SLICEs
+      Net cpu0_inst_system_resetn_o_net: 604 loads, 559 SLICEs
+      Net secured_signal_1798: 59 loads, 58 SLICEs
+      Net secured_signal_1938: 36 loads, 36 SLICEs
+      Net secured_signal_1941: 1 loads, 1 SLICEs
+      Net secured_signal_2096: 16 loads, 16 SLICEs
+      Net secured_signal_2261: 2 loads, 2 SLICEs
+      Net secured_signal_2262: 280 loads, 280 SLICEs
+      Net secured_signal_2358: 1 loads, 1 SLICEs
+      Net secured_signal_2520: 32 loads, 32 SLICEs
+      Net secured_signal_2789: 1 loads, 1 SLICEs
+      Net secured_signal_3534: 1 loads, 1 SLICEs
+      Net secured_signal_4462: 1 loads, 1 SLICEs
+      Net secured_signal_4568: 1 loads, 1 SLICEs
+      Net secured_signal_4762: 1 loads, 1 SLICEs
+      Net secured_signal_4827: 1 loads, 1 SLICEs
+      Net secured_signal_8582: 15 loads, 15 SLICEs
+      Net secured_signal_9570: 1 loads, 1 SLICEs
+      Net secured_signal_10229: 1 loads, 1 SLICEs
+      Net secured_signal_11534: 1 loads, 1 SLICEs
+      Net dualport_inst.lscc_sys_mem_inst.bridge_s1.genblk1.bridge_s1.bridge_sm_
+     r_nss[0]: 1 loads, 1 SLICEs
+      Net dualport_inst.lscc_sys_mem_inst.bridge_s1.genblk1.bridge_s1.N_956_i: 3
+     loads, 3 SLICEs
+      Net pll0_inst.lscc_pll_inst.rstn_i_c_i: 1 loads, 0 SLICEs
+   Top 10 highest fanout non-clock nets:
+      Net cpu0_inst_system_resetn_o_net: 641 loads
+      Net equation_module0_inst_O_net: 407 loads
+      Net VCC: 367 loads
+      Net equation_module0_inst_O_net_i: 294 loads
+      Net secured_signal_2262: 280 loads
+      Net secured_signal_4462: 242 loads
+      Net secured_signal_10226: 181 loads
+      Net secured_signal_3531: 180 loads
+      Net secured_signal_11052: 102 loads
+      Net secured_signal_9555: 99 loads
+
+   Number of warnings:  24
+   Number of errors:    0
+
+<A name="mrp_dwe"></A><B><U><big>Design Errors/Warnings</big></U></B>
+
+WARNING &lt;71003020&gt; - map: Top module port &apos;TCK&apos; does not connect to anything.
+WARNING &lt;71003020&gt; - map: Top module port &apos;TMS&apos; does not connect to anything.
+WARNING &lt;71003020&gt; - map: Top module port &apos;TDI&apos; does not connect to anything.
+WARNING &lt;71003020&gt; - map: Top module port &apos;TDO&apos; does not connect to anything.
+WARNING &lt;51011063&gt; - map: IO instance cpu0_inst/riscvsmall_inst/secured_instance
+     _54_4/secured_instance_51_2/secured_instance_46_17/secured_instance_139_103
+     is not connected to any port, it is ignored.
+WARNING &lt;51011063&gt; - map: IO instance cpu0_inst/riscvsmall_inst/secured_instance
+     _54_4/secured_instance_51_2/secured_instance_46_17/secured_instance_139_104
+     is not connected to any port, it is ignored.
+WARNING &lt;51011063&gt; - map: IO instance cpu0_inst/riscvsmall_inst/secured_instance
+     _54_4/secured_instance_51_2/secured_instance_46_17/secured_instance_139_105
+     is not connected to any port, it is ignored.
+WARNING &lt;51011063&gt; - map: IO instance cpu0_inst/riscvsmall_inst/secured_instance
+     _54_4/secured_instance_51_2/secured_instance_46_17/secured_instance_139_106
+     is not connected to any port, it is ignored.
+WARNING &lt;51011065&gt; - map: Disconnect
+     gpio1_inst/lscc_gpio_inst/genblk1.lscc_gpio_lmmi_0/gpio_out_r[0] to I input
+     of gpio1_inst/lscc_gpio_inst/genblk1.lscc_gpio_lmmi_0/genblk2[0].genblk1.ge
+     nblk1.u_BB_data_cZ. Because it is not used for an input IO buffer.
+WARNING &lt;51011065&gt; - map: Disconnect
+     gpio1_inst/lscc_gpio_inst/genblk1.lscc_gpio_lmmi_0/gpio_out_r[3] to I input
+     of gpio1_inst/lscc_gpio_inst/genblk1.lscc_gpio_lmmi_0/genblk2[3].genblk1.ge
+     nblk1.u_BB_data_cZ. Because it is not used for an input IO buffer.
+WARNING &lt;51011065&gt; - map: Disconnect
+     gpio1_inst/lscc_gpio_inst/genblk1.lscc_gpio_lmmi_0/gpio_out_r[2] to I input
+     of gpio1_inst/lscc_gpio_inst/genblk1.lscc_gpio_lmmi_0/genblk2[2].genblk1.ge
+     nblk1.u_BB_data_cZ. Because it is not used for an input IO buffer.
+WARNING &lt;51011065&gt; - map: Disconnect
+     gpio1_inst/lscc_gpio_inst/genblk1.lscc_gpio_lmmi_0/gpio_out_r[1] to I input
+     of gpio1_inst/lscc_gpio_inst/genblk1.lscc_gpio_lmmi_0/genblk2[1].genblk1.ge
+     nblk1.u_BB_data_cZ. Because it is not used for an input IO buffer.
+WARNING &lt;51011065&gt; - map: Disconnect
+     gpio1_inst/lscc_gpio_inst/genblk1.lscc_gpio_lmmi_0/gpio_out_r[4] to I input
+     of gpio1_inst/lscc_gpio_inst/genblk1.lscc_gpio_lmmi_0/genblk2[4].genblk1.ge
+     nblk1.u_BB_data_cZ. Because it is not used for an input IO buffer.
+WARNING &lt;51011065&gt; - map: Disconnect
+     gpio1_inst/lscc_gpio_inst/genblk1.lscc_gpio_lmmi_0/gpio_out_r[7] to I input
+     of gpio1_inst/lscc_gpio_inst/genblk1.lscc_gpio_lmmi_0/genblk2[7].genblk1.ge
+     nblk1.u_BB_data_cZ. Because it is not used for an input IO buffer.
+WARNING &lt;51011065&gt; - map: Disconnect
+     gpio1_inst/lscc_gpio_inst/genblk1.lscc_gpio_lmmi_0/gpio_out_r[6] to I input
+     of gpio1_inst/lscc_gpio_inst/genblk1.lscc_gpio_lmmi_0/genblk2[6].genblk1.ge
+     nblk1.u_BB_data_cZ. Because it is not used for an input IO buffer.
+WARNING &lt;51011065&gt; - map: Disconnect
+     gpio1_inst/lscc_gpio_inst/genblk1.lscc_gpio_lmmi_0/gpio_out_r[5] to I input
+     of gpio1_inst/lscc_gpio_inst/genblk1.lscc_gpio_lmmi_0/genblk2[5].genblk1.ge
+     nblk1.u_BB_data_cZ. Because it is not used for an input IO buffer.
+WARNING &lt;71003020&gt; - map: Top module port &apos;TCK&apos; does not connect to anything.
+WARNING &lt;71003020&gt; - map: Top module port &apos;TMS&apos; does not connect to anything.
+WARNING &lt;71003020&gt; - map: Top module port &apos;TDI&apos; does not connect to anything.
+WARNING &lt;71003020&gt; - map: Top module port &apos;TDO&apos; does not connect to anything.
+WARNING &lt;71003020&gt; - map: Top module port &apos;TCK&apos; does not connect to anything.
+WARNING &lt;71003020&gt; - map: Top module port &apos;TMS&apos; does not connect to anything.
+WARNING &lt;71003020&gt; - map: Top module port &apos;TDI&apos; does not connect to anything.
+WARNING &lt;71003020&gt; - map: Top module port &apos;TDO&apos; does not connect to anything.
+
+<A name="mrp_ioa"></A><B><U><big>IO (PIO) Attributes</big></U></B>
+
++---------------------+-----------+-----------+-------+-------+-----------+
+| IO Name             | Direction | Levelmode |  IO   |  IO   | Special   |
+|                     |           |  IO_TYPE  |  REG  |  DDR  | IO Buffer |
++---------------------+-----------+-----------+-------+-------+-----------+
+| led_g[0]            | BIDIR     |           | I     |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| led_g[3]            | BIDIR     |           | I     |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| led_g[2]            | BIDIR     |           | I     |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| led_g[1]            | BIDIR     |           | I     |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| led_g[4]            | BIDIR     |           | I     |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| led_g[7]            | BIDIR     |           | I     |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| led_g[6]            | BIDIR     |           | I     |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| led_g[5]            | BIDIR     |           | I     |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| user_b[0]           | INPUT     |           | I     |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| user_b[3]           | INPUT     |           | I     |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| user_b[2]           | INPUT     |           | I     |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| user_b[1]           | INPUT     |           | I     |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| user_b[4]           | INPUT     |           | I     |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| user_b[7]           | INPUT     |           | I     |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| user_b[6]           | INPUT     |           | I     |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| user_b[5]           | INPUT     |           | I     |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| txd_o               | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| rxd_i               | INPUT     |           | I     |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| rstn_i              | INPUT     |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+
+<A name="mrp_rm"></A><B><U><big>Removed logic</big></U></B>
+
+Block GSR_INST undriven or does not drive anything - clipped.
+Block VCC_cZ was optimized away.
+Block uart0_inst/lscc_uart_inst/u_txmitt/nfifo_fsm.tx_state_RNI7V2A[0] was
+     optimized away.
+Block pll0_inst/lscc_pll_inst/gen_no_refclk_mon.u_PLL_RNIPJBE was optimized
+     away.
+Block gpio1_inst/lscc_gpio_inst/genblk2.lscc_apb2lmmi_0/genblk1.bus_sm_cs_RNIAAD
+     A[1] was optimized away.
+Block gpio1_inst/lscc_gpio_inst/genblk1.lscc_gpio_lmmi_0/genblk2[7].genblk1.genb
+     lk1.u_BB_data_RNO was optimized away.
+Block gpio1_inst/lscc_gpio_inst/genblk1.lscc_gpio_lmmi_0/genblk2[6].genblk1.genb
+     lk1.u_BB_data_RNO was optimized away.
+Block gpio1_inst/lscc_gpio_inst/genblk1.lscc_gpio_lmmi_0/genblk2[5].genblk1.genb
+     lk1.u_BB_data_RNO was optimized away.
+Block gpio1_inst/lscc_gpio_inst/genblk1.lscc_gpio_lmmi_0/genblk2[4].genblk1.genb
+     lk1.u_BB_data_RNO was optimized away.
+Block gpio1_inst/lscc_gpio_inst/genblk1.lscc_gpio_lmmi_0/genblk2[3].genblk1.genb
+     lk1.u_BB_data_RNO was optimized away.
+Block gpio1_inst/lscc_gpio_inst/genblk1.lscc_gpio_lmmi_0/genblk2[2].genblk1.genb
+     lk1.u_BB_data_RNO was optimized away.
+Block gpio1_inst/lscc_gpio_inst/genblk1.lscc_gpio_lmmi_0/genblk2[1].genblk1.genb
+     lk1.u_BB_data_RNO was optimized away.
+Block gpio1_inst/lscc_gpio_inst/genblk1.lscc_gpio_lmmi_0/genblk2[0].genblk1.genb
+     lk1.u_BB_data_RNO was optimized away.
+Block gpio0_inst/lscc_gpio_inst/genblk2.lscc_apb2lmmi_0/genblk1.bus_sm_cs_RNI99B
+     9[1] was optimized away.
+Block gpio0_inst/lscc_gpio_inst/genblk1.lscc_gpio_lmmi_0/genblk2[7].genblk1.genb
+     lk1.u_BB_data_RNO was optimized away.
+Block gpio0_inst/lscc_gpio_inst/genblk1.lscc_gpio_lmmi_0/genblk2[6].genblk1.genb
+     lk1.u_BB_data_RNO was optimized away.
+Block gpio0_inst/lscc_gpio_inst/genblk1.lscc_gpio_lmmi_0/genblk2[5].genblk1.genb
+     lk1.u_BB_data_RNO was optimized away.
+Block gpio0_inst/lscc_gpio_inst/genblk1.lscc_gpio_lmmi_0/genblk2[4].genblk1.genb
+     lk1.u_BB_data_RNO was optimized away.
+Block gpio0_inst/lscc_gpio_inst/genblk1.lscc_gpio_lmmi_0/genblk2[3].genblk1.genb
+     lk1.u_BB_data_RNO was optimized away.
+Block gpio0_inst/lscc_gpio_inst/genblk1.lscc_gpio_lmmi_0/genblk2[2].genblk1.genb
+     lk1.u_BB_data_RNO was optimized away.
+Block gpio0_inst/lscc_gpio_inst/genblk1.lscc_gpio_lmmi_0/genblk2[1].genblk1.genb
+     lk1.u_BB_data_RNO was optimized away.
+Block gpio0_inst/lscc_gpio_inst/genblk1.lscc_gpio_lmmi_0/genblk2[0].genblk1.genb
+     lk1.u_BB_data_RNO was optimized away.
+Block cpu0_inst/riscvsmall_inst_SYSTEM_RESETN_RNIK68A was optimized away.
+
+<A name="mrp_pll"></A><B><U><big>PLL/DLL Summary</big></U></B>
+
+PLL 1:                                 Pin/Node Value
+  PLL Instance Name:                            pll0_inst/lscc_pll_inst/gen_no_r
+       efclk_mon.u_PLL.PLL_inst
+  Input Reference Clock:               NODE     osc0_inst_hf_clk_out_o_net
+  Output Clock(P):                     NODE     pll0_inst_clkop_o_net
+  Output Clock(S):                     NODE     pll0_inst_clkos_o_net
+  Output Clock(S2):                             NONE
+  Output Clock(S3):                             NONE
+  Output Clock(S4):                             NONE
+  Output Clock(S5):                             NONE
+  Feedback Signal:                     NODE
+       pll0_inst.lscc_pll_inst.intclkop_w
+  Reset Signal:                        NODE
+       pll0_inst.lscc_pll_inst.rstn_i_c_i
+  Standby Signal:                      NODE     GND
+  PLL LOCK signal:                     NODE     pll0_inst_lock_o_net
+  PLL Internal LOCK Signal:                     NONE
+  A Divider:                                    13
+  B Divider:                                    83
+  C Divider:                                    7
+  D Divider:                                    7
+  E Divider:                                    7
+  F Divider:                                    7
+  A Post Divider Shift:                         13
+  B Post Divider Shift:                         83
+  C Post Divider Shift:                         7
+  D Post Divider Shift:                         7
+  E Post Divider Shift:                         7
+  F Post Divider Shift:                         7
+  A Section VCO Phase Shift:                    0
+  B Section VCO Phase Shift:                    0
+  C Section VCO Phase Shift:                    0
+  D Section VCO Phase Shift:                    0
+  E Section VCO Phase Shift:                    0
+  F Section VCO Phase Shift:                    0
+  CLKOP Trim Setting:                           0000
+  CLKOS Trim Setting:                           0000
+  CLKOS2 Trim Setting:                          0000
+  CLKOS3 Trim Setting:                          0000
+  CLKOS4 Trim Setting:                          0000
+  CLKOS5 Trim Setting:                          0000
+
+<A name="mrp_osc"></A><B><U><big>OSC Summary</big></U></B>
+
+OSC 1:                                 Pin/Node Value
+  OSC Instance Name:                            osc0_inst/lscc_osc_inst/gen_osca
+       .u_OSC_A.OSCA_inst
+  Enable High Frequency SDSC:          NODE     VCC
+  High Frequency Output:               NODE     osc0_inst_hf_clk_out_o_net
+  Low Frequency Output:                         NONE
+  SDC Output:                                   NONE
+  High Frequency DIV:                           24
+
+<A name="mrp_asic"></A><B><U><big>ASIC Components</big></U></B>
+
+Instance Name: secured_comp_1436
+         Type: DCC
+Instance Name: secured_comp_1477
+         Type: CONFIG_JTAG_CORE
+Instance Name: secured_comp_6334
+         Type: PREADD9_CORE
+Instance Name: secured_comp_6335
+         Type: PREADD9_CORE
+Instance Name: secured_comp_6336
+         Type: MULT9_CORE
+Instance Name: secured_comp_6337
+         Type: MULT9_CORE
+Instance Name: secured_comp_6338
+         Type: MULT18_CORE
+Instance Name: secured_comp_6339
+         Type: REG18_CORE
+Instance Name: secured_comp_6340
+         Type: REG18_CORE
+Instance Name: secured_comp_6341
+         Type: PREADD9_CORE
+Instance Name: secured_comp_6342
+         Type: PREADD9_CORE
+Instance Name: secured_comp_6343
+         Type: PREADD9_CORE
+Instance Name: secured_comp_6344
+         Type: PREADD9_CORE
+Instance Name: secured_comp_6345
+         Type: MULT9_CORE
+Instance Name: secured_comp_6346
+         Type: MULT9_CORE
+Instance Name: secured_comp_6347
+         Type: MULT9_CORE
+Instance Name: secured_comp_6348
+         Type: MULT9_CORE
+Instance Name: secured_comp_6349
+         Type: MULT18_CORE
+Instance Name: secured_comp_6350
+         Type: MULT18_CORE
+Instance Name: secured_comp_6351
+         Type: MULT18X36_CORE
+Instance Name: secured_comp_6352
+         Type: REG18_CORE
+Instance Name: secured_comp_6353
+         Type: REG18_CORE
+Instance Name: secured_comp_6354
+         Type: REG18_CORE
+Instance Name: secured_comp_6355
+         Type: PREADD9_CORE
+Instance Name: secured_comp_6356
+         Type: PREADD9_CORE
+Instance Name: secured_comp_6357
+         Type: PREADD9_CORE
+Instance Name: secured_comp_6358
+         Type: PREADD9_CORE
+Instance Name: secured_comp_6359
+         Type: MULT9_CORE
+Instance Name: secured_comp_6360
+         Type: MULT9_CORE
+Instance Name: secured_comp_6361
+         Type: MULT9_CORE
+Instance Name: secured_comp_6362
+         Type: MULT9_CORE
+Instance Name: secured_comp_6363
+         Type: MULT18_CORE
+Instance Name: secured_comp_6364
+         Type: MULT18_CORE
+Instance Name: secured_comp_6365
+         Type: MULT18X36_CORE
+Instance Name: secured_comp_6366
+         Type: REG18_CORE
+Instance Name: secured_comp_6367
+         Type: REG18_CORE
+Instance Name: secured_comp_6368
+         Type: REG18_CORE
+Instance Name: secured_comp_6369
+         Type: PREADD9_CORE
+Instance Name: secured_comp_6370
+         Type: PREADD9_CORE
+Instance Name: secured_comp_6371
+         Type: MULT9_CORE
+Instance Name: secured_comp_6372
+         Type: MULT9_CORE
+Instance Name: secured_comp_6373
+         Type: MULT18_CORE
+Instance Name: secured_comp_6374
+         Type: REG18_CORE
+Instance Name: secured_comp_6375
+         Type: REG18_CORE
+Instance Name: secured_comp_6376
+         Type: EBR_CORE
+Instance Name: secured_comp_6377
+         Type: EBR_CORE
+Instance Name: secured_comp_10309
+         Type: EBR_CORE
+Instance Name: secured_comp_10310
+         Type: EBR_CORE
+Instance Name: dualport_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/i
+     ntf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR
+     [0].xDATA[1].no_mem_file.u_mem0/LIFCL.dp16k.DP16K_MODE_inst
+         Type: EBR_CORE
+Instance Name: dualport_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/i
+     ntf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR
+     [0].xDATA[0].no_mem_file.u_mem0/LIFCL.dp16k.DP16K_MODE_inst
+         Type: EBR_CORE
+Instance Name: osc0_inst/lscc_osc_inst/gen_osca.u_OSC_A.OSCA_inst
+         Type: OSC_CORE
+Instance Name: pll0_inst/lscc_pll_inst/gen_no_refclk_mon.u_PLL.PLL_inst
+         Type: PLL_CORE
+Instance Name: sysmem0_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/in
+     tf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[
+     0].xDATA[1].mem_file.u_mem0/LIFCL.dp16k.DP16K_MODE_inst
+         Type: EBR_CORE
+Instance Name: sysmem0_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/in
+     tf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[
+     0].xDATA[5].mem_file.u_mem0/LIFCL.dp16k.DP16K_MODE_inst
+         Type: EBR_CORE
+Instance Name: sysmem0_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/in
+     tf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[
+     0].xDATA[9].mem_file.u_mem0/LIFCL.dp16k.DP16K_MODE_inst
+         Type: EBR_CORE
+Instance Name: sysmem0_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/in
+     tf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[
+     0].xDATA[11].mem_file.u_mem0/LIFCL.dp16k.DP16K_MODE_inst
+         Type: EBR_CORE
+Instance Name: sysmem0_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/in
+     tf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[
+     0].xDATA[13].mem_file.u_mem0/LIFCL.dp16k.DP16K_MODE_inst
+         Type: EBR_CORE
+Instance Name: sysmem0_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/in
+     tf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[
+     0].xDATA[2].mem_file.u_mem0/LIFCL.dp16k.DP16K_MODE_inst
+         Type: EBR_CORE
+Instance Name: sysmem0_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/in
+     tf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[
+     0].xDATA[6].mem_file.u_mem0/LIFCL.dp16k.DP16K_MODE_inst
+         Type: EBR_CORE
+Instance Name: sysmem0_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/in
+     tf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[
+     0].xDATA[4].mem_file.u_mem0/LIFCL.dp16k.DP16K_MODE_inst
+         Type: EBR_CORE
+Instance Name: sysmem0_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/in
+     tf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[
+     0].xDATA[10].mem_file.u_mem0/LIFCL.dp16k.DP16K_MODE_inst
+         Type: EBR_CORE
+Instance Name: sysmem0_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/in
+     tf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[
+     0].xDATA[8].mem_file.u_mem0/LIFCL.dp16k.DP16K_MODE_inst
+         Type: EBR_CORE
+Instance Name: sysmem0_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/in
+     tf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[
+     0].xDATA[12].mem_file.u_mem0/LIFCL.dp16k.DP16K_MODE_inst
+         Type: EBR_CORE
+Instance Name: sysmem0_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/in
+     tf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[
+     0].xDATA[3].mem_file.u_mem0/LIFCL.dp16k.DP16K_MODE_inst
+         Type: EBR_CORE
+Instance Name: sysmem0_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/in
+     tf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[
+     0].xDATA[7].mem_file.u_mem0/LIFCL.dp16k.DP16K_MODE_inst
+         Type: EBR_CORE
+Instance Name: sysmem0_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/in
+     tf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[
+     0].xDATA[0].mem_file.u_mem0/LIFCL.dp16k.DP16K_MODE_inst
+         Type: EBR_CORE
+Instance Name: sysmem0_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/in
+     tf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[
+     0].xDATA[14].mem_file.u_mem0/LIFCL.dp16k.DP16K_MODE_inst
+         Type: EBR_CORE
+Instance Name: sysmem0_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/in
+     tf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[
+     0].xDATA[15].mem_file.u_mem0/LIFCL.dp16k.DP16K_MODE_inst
+         Type: EBR_CORE
+Instance Name: sysmem1_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/in
+     tf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[
+     0].xDATA[1].mem_file.u_mem0/LIFCL.dp16k.DP16K_MODE_inst
+         Type: EBR_CORE
+Instance Name: sysmem1_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/in
+     tf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[
+     0].xDATA[5].mem_file.u_mem0/LIFCL.dp16k.DP16K_MODE_inst
+         Type: EBR_CORE
+Instance Name: sysmem1_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/in
+     tf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[
+     0].xDATA[9].mem_file.u_mem0/LIFCL.dp16k.DP16K_MODE_inst
+         Type: EBR_CORE
+Instance Name: sysmem1_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/in
+     tf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[
+     0].xDATA[11].mem_file.u_mem0/LIFCL.dp16k.DP16K_MODE_inst
+         Type: EBR_CORE
+Instance Name: sysmem1_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/in
+     tf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[
+     0].xDATA[13].mem_file.u_mem0/LIFCL.dp16k.DP16K_MODE_inst
+         Type: EBR_CORE
+Instance Name: sysmem1_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/in
+     tf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[
+     0].xDATA[2].mem_file.u_mem0/LIFCL.dp16k.DP16K_MODE_inst
+         Type: EBR_CORE
+Instance Name: sysmem1_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/in
+     tf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[
+     0].xDATA[6].mem_file.u_mem0/LIFCL.dp16k.DP16K_MODE_inst
+         Type: EBR_CORE
+Instance Name: sysmem1_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/in
+     tf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[
+     0].xDATA[4].mem_file.u_mem0/LIFCL.dp16k.DP16K_MODE_inst
+         Type: EBR_CORE
+Instance Name: sysmem1_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/in
+     tf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[
+     0].xDATA[10].mem_file.u_mem0/LIFCL.dp16k.DP16K_MODE_inst
+         Type: EBR_CORE
+Instance Name: sysmem1_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/in
+     tf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[
+     0].xDATA[8].mem_file.u_mem0/LIFCL.dp16k.DP16K_MODE_inst
+         Type: EBR_CORE
+Instance Name: sysmem1_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/in
+     tf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[
+     0].xDATA[12].mem_file.u_mem0/LIFCL.dp16k.DP16K_MODE_inst
+         Type: EBR_CORE
+Instance Name: sysmem1_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/in
+     tf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[
+     0].xDATA[3].mem_file.u_mem0/LIFCL.dp16k.DP16K_MODE_inst
+         Type: EBR_CORE
+Instance Name: sysmem1_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/in
+     tf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[
+     0].xDATA[7].mem_file.u_mem0/LIFCL.dp16k.DP16K_MODE_inst
+         Type: EBR_CORE
+Instance Name: sysmem1_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/in
+     tf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[
+     0].xDATA[0].mem_file.u_mem0/LIFCL.dp16k.DP16K_MODE_inst
+         Type: EBR_CORE
+Instance Name: sysmem1_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/in
+     tf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[
+     0].xDATA[14].mem_file.u_mem0/LIFCL.dp16k.DP16K_MODE_inst
+         Type: EBR_CORE
+Instance Name: sysmem1_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/in
+     tf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[
+     0].xDATA[15].mem_file.u_mem0/LIFCL.dp16k.DP16K_MODE_inst
+         Type: EBR_CORE
+
+<A name="mrp_consum"></A><B><U><big>Constraint Summary</big></U></B>
+
+   Total number of constraints: 11
+   Total number of constraints dropped: 0
+
+<A name="mrp_runtime"></A><B><U><big>Run Time and Memory Usage</big></U></B>
+
+   Total CPU Time: 1 secs
+   Total REAL Time: 4 secs
+   Peak Memory Usage: 525 MB
+Checksum -- map: a357fd21f6cf0ffeeb913bc33c7421f46bcecf76
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995
+     AT&amp;T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent
+     Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems
+     All rights reserved.
+Copyright (c) 2002-2023 Lattice Semiconductor
+     Corporation,  All rights reserved.
+</PRE></DIV>
+<DIV id="toc" class="radiant"><span onmousemove="showTocList()">Contents</span>
+<UL id="toc_list">
+<LI><A href=#mrp_di>Design Information</A></LI>
+<LI><A href=#mrp_ds>Design Summary</A></LI>
+<LI><A href=#mrp_dwe>Design Errors/Warnings</A></LI>
+<LI><A href=#mrp_ioa>IO (PIO) Attributes</A></LI>
+<LI><A href=#mrp_rm>Removed logic</A></LI>
+<LI><A href=#mrp_pll>PLL/DLL Summary</A></LI>
+<LI><A href=#mrp_osc>OSC Summary</A></LI>
+<LI><A href=#mrp_asic>ASIC Components</A></LI>
+<LI><A href=#mrp_consum>Constraint Summary</A></LI>
+<LI><A href=#mrp_runtime>Run Time and Memory Usage</A></LI>
+</UL>
+</DIV>
+
+<button id="back_to_top" class="radiant" onclick="scrollToTop()">&lt;</button>
+<script type="text/javascript">
+<!--
+var scrollStep = 0;
+function scrollToTop(){
+  var funScroll = function() {
+    var top = document.body.scrollTop;
+    if (top == 0) {
+      scrollStep = 0;
+      return;
+    }
+    if (scrollStep == 0)
+      scrollStep = top/20 + 1;
+    top -= scrollStep;
+    if (top < 0)
+      top = 0;
+    document.body.scrollTop = top;
+    requestAnimationFrame(funScroll);
+  };
+  funScroll();
+}
+
+window.addEventListener('scroll', function(e) {
+  var backToTop = document.getElementById('back_to_top')
+  if (document.body.scrollTop > 0) {
+    backToTop.style.display = 'block';
+  } else {	backToTop.style.display = 'none'  }});
+
+//-->
+</script>
+
+<style type="text/css">
+#back_to_top {
+  bottom:20px; right:20px;
+  width:30px; height:30px;
+  font-size: 20px;
+  padding: 2px 5px 2px 5px;
+  position:fixed;
+  background-color:rgba(210,210,210,0.1);
+  border-style: solid;
+  border-color: rgba(192,192,192,0.8);
+  border-width:1px;
+  display:none;
+  -webkit-transform: rotate(90deg);
+  -webkit-transform-origin:50% 50%;
+}
+#back_to_top:focus {
+  outline-width:0px;
+}
+</style>
+
+</BODY>
+

@@ -1,0 +1,332 @@
+Copyright (c) 2002-2022 Lattice Semiconductor Corporation,  All rights reserved.
+
+Thu Jun 27 16:46:41 2024
+
+Command Line: par -w -n 10 -t 1 -s 1 -cores 1 -stopzero -hsp m -exp \
+	parPathBased=OFF DualCore_impl_1_map.udb DualCore_impl_1.udb 
+
+
+Level/       Number       Estimated       Timing       Estimated Worst    Timing          Run      Run
+Cost [udb]   Unrouted     Worst Slack     Score        Slack(hold)        Score(hold)     Time     Status
+----------   --------     -----------     ------       ---------------    -----------     ----     ------
+5_5   *      0            -1.698          316826       -                  -               01:03    Completed
+5_6          0            -1.789          357181       -                  -               01:11    Completed
+5_1          0            -2.094          422851       -                  -               01:11    Completed
+5_2          -            -               -            -                  -               47       Skipped
+5_3          -            -               -            -                  -               43       Skipped
+5_4          -            -               -            -                  -               43       Skipped
+5_7          -            -               -            -                  -               44       Skipped
+5_8          -            -               -            -                  -               50       Skipped
+5_9          -            -               -            -                  -               43       Skipped
+5_10         -            -               -            -                  -               46       Skipped
+
+* : Design saved.
+
+INFO <60001138> - par: Iterations 5_2, 5_3, 5_4, 5_7, 5_8, 5_9, and 5_10 were terminated during the PAR process to save total runtime, as it was determined they would not improve upon a timing result achieved in a previous iteration.
+
+Total (real) run time for 10-seed: 8 mins 41 secs 
+
+par done!
+
+Lattice Place and Route Report for Design "DualCore_impl_1_map.udb"
+Thu Jun 27 16:50:05 2024
+
+PAR: Place And Route Radiant Software (64-bit) 2023.2.1.288.0.
+Command Line: par -w -t 5 -hsp m -exp \
+	parPathBased=OFF:aseRouteInitSetupSlackThreshold=-2.094 \
+	DualCore_impl_1_map.udb DualCore_impl_1_par.dir/5_5.udb 
+
+Loading DualCore_impl_1_map.udb ...
+Loading device for application GENERIC from file 'jd5s30.nph' in environment: C:/lscc/radiant/2023.2/ispfpga.
+Package Status:                     Final          Version 4.
+Performance Hardware Data Status:   Final          Version 107.1.
+
+
+
+Design:  DualCore
+Family:  LFD2NX
+Device:  LFD2NX-40
+Package: CABGA196
+Performance Grade:   7_High-Performance_1.0V
+WARNING <71003020> - par: Top module port 'TCK' does not connect to anything.
+WARNING <71003020> - par: Top module port 'TMS' does not connect to anything.
+WARNING <71003020> - par: Top module port 'TDI' does not connect to anything.
+WARNING <71003020> - par: Top module port 'TDO' does not connect to anything.
+WARNING <71003020> - par: Top module port 'TCK' does not connect to anything.
+WARNING <71003020> - par: Top module port 'TMS' does not connect to anything.
+WARNING <71003020> - par: Top module port 'TDI' does not connect to anything.
+WARNING <71003020> - par: Top module port 'TDO' does not connect to anything.
+
+Device SLICE utilization summary after final SLICE packing:
+   SLICE           8436/16128        52% used
+
+Number of Signals: 13284
+Number of Connections: 42715
+Device utilization summary:
+
+   VHI                   1/1           100% used
+   SIOLOGIC             17/186           9% used
+   DCC                   1/62            2% used
+   EBR                  38/84           45% used
+   MULT9                12/112          11% used
+   MULT18                6/56           11% used
+   MULT18X36             2/28            7% used
+   REG18                10/112           9% used
+   PREADD9              12/112          11% used
+   SEIO33               19/150          13% used
+                        19/92           21% bonded
+   OSC                   1/1           100% used
+   PLL                   1/3            33% used
+   CONFIG_JTAG           1/1           100% used
+   SLICE              8436/16128        52% used
+     LUT              7688/32256        24% used
+     REG              3905/32256        12% used
+
+
+Pin Constraint Summary:
+   6 out of 19 pins locked (31% locked).
+INFO: signal 'cpu0_inst.riscvsmall_inst.Ib1w9tjglomgvCgAIkup60xKDx.IbCuo3aEvk5cF25j4DHzkJGG2F.NbqAaKcoy7LeAHb1' driving mixed DCC load types requires multi-feedlines.
+
+INFO: signal 'cpu0_inst.riscvsmall_inst.Ib1w9tjglomgvCgAIkup60xKDx.IbCuo3aEvk5cF25j4DHzkJGG2F.NbqAaKcoy7LeAHb1' driving mixed DCC load types requires multi-feedlines.
+.
+Starting Placer Phase 0 (HIER). CPU time: 2 secs , REAL time: 6 secs 
+...........
+Finished Placer Phase 0 (HIER). CPU time: 3 secs , REAL time: 10 secs 
+
+
+Starting Placer Phase 1. CPU time: 3 secs , REAL time: 10 secs 
+..  ..
+....................
+
+Placer score = 4600082.
+Finished Placer Phase 1. CPU time: 7 secs , REAL time: 27 secs 
+
+Starting Placer Phase 2.
+.
+
+Placer score =  4497584
+Finished Placer Phase 2.  CPU time: 7 secs , REAL time: 28 secs 
+
+
+------------------ Clock Report ------------------
+
+Global Clock Resources:
+  CLK_PIN    : 0 out of 26 (0%)
+  PLL        : 1 out of 3 (33%)
+  DCS        : 0 out of 1 (0%)
+  DCC        : 1 out of 62 (1%)
+  ECLKDIV    : 0 out of 12 (0%)
+  PCLKDIV    : 0 out of 1 (0%)
+  OSC        : 1 out of 1 (100%)
+  PCIE       : 0 out of 1 (0%)
+
+Global Clocks:
+  PRIMARY "osc0_inst_hf_clk_out_o_net" from HFCLKOUT on comp "osc0_inst.lscc_osc_inst.gen_osca.u_OSC_A.OSCA_inst" on site "OSC_CORE_R1C77", clk load = 1, ce load = 0, sr load = 0
+  PRIMARY "pll0_inst_clkop_o_net" from CLKOP on comp "pll0_inst.lscc_pll_inst.gen_no_refclk_mon.u_PLL.PLL_inst" on PLL site "PLL_LLC", clk load = 3222, ce load = 0, sr load = 0
+  PRIMARY "pll0_inst_clkos_o_net" from CLKOS on comp "pll0_inst.lscc_pll_inst.gen_no_refclk_mon.u_PLL.PLL_inst" on PLL site "PLL_LLC", clk load = 447, ce load = 0, sr load = 0
+  PRIMARY "cpu0_inst.riscvsmall_inst.Ib1w9tjglomgvCgAIkup60xKDx.IbCuo3aEvk5cF25j4DHzkJGG2F.NbqAaKcoy7LeAHb1" from JTCK on comp "cpu0_inst.riscvsmall_inst.Ib1w9tjglomgvCgAIkup60xKDx.IbCuo3aEvk5cF25j4DHzkJGG2F.genblk3.jtag.jtagg_u" on site "TCONFIG_JTAG_CORE73", clk load = 58, ce load = 0, sr load = 0
+  PRIMARY "cpu0_inst_system_resetn_o_net" from Q0 on comp "SLICE_1586" on site "R38C49A", clk load = 0, ce load = 0, sr load = 604
+  PRIMARY "equation_module0_inst_O_net" from F0 on comp "SLICE_1586" on site "R38C49A", clk load = 0, ce load = 0, sr load = 398
+  PRIMARY DCC "cpu0_inst.riscvsmall_inst.Ib1w9tjglomgvCgAIkup60xKDx.NbbICH" from comp "cpu0_inst.riscvsmall_inst.Ib1w9tjglomgvCgAIkup60xKDx.IbCuo3aEvk5cF25j4DHzkJGG2F.Iohm428if6nkdrszemy5wAmC" on DCC site "DCC_T0", total # of clk loads = 83
+     - DCC input "cpu0_inst.riscvsmall_inst.Ib1w9tjglomgvCgAIkup60xKDx.IbCuo3aEvk5cF25j4DHzkJGG2F.NbqAaKcoy7LeAHb1" from JTCK on comp "cpu0_inst.riscvsmall_inst.Ib1w9tjglomgvCgAIkup60xKDx.IbCuo3aEvk5cF25j4DHzkJGG2F.genblk3.jtag.jtagg_u" on site "TCONFIG_JTAG_CORE73"
+
+  PRIMARY  : 7 out of 16 (43%)
+
+Edge Clocks:
+
+  No edge clock selected.
+
+
+--------------- End of Clock Report ---------------
+
+
+I/O Usage Summary (final):
+   19 out of 150 (12.7%) SEIO33 sites used.
+   19 out of 92 (20.7%) bonded SEIO33 sites used.
+   Number of SEIO33 components: 19; differential: 0
+   Number of Vref pins used: 0
+   0 out of 74 (0.0%) SEIO18 sites used.
+   0 out of 58 (0.0%) bonded SEIO18 sites used.
+   Number of SEIO18 components: 0; differential: 0
+   0 out of 37 (0.0%) DIFFIO18 sites used.
+   0 out of 29 (0.0%) bonded DIFFIO18 sites used.
+   Number of DIFFIO18 components: 0; differential: 0
+
+I/O Bank Usage Summary:
++----------+---------------+------------+------------+------------+
+| I/O Bank | Usage         | Bank Vccio | Bank Vref1 | Bank Vref2 |
++----------+---------------+------------+------------+------------+
+| 0        | 6 / 12 ( 50%) | 3.3V       | -          | -          |
+| 1        | 4 / 17 ( 23%) | 3.3V       | -          | -          |
+| 2        | 7 / 20 ( 35%) | 3.3V       | -          | -          |
+| 3        | 0 / 32 (  0%) | -          | -          | -          |
+| 4        | 0 / 16 (  0%) | -          | -          | -          |
+| 5        | 0 / 10 (  0%) | -          | -          | -          |
+| 6        | 2 / 25 (  8%) | 3.3V       | -          | -          |
+| 7        | 0 / 18 (  0%) | -          | -          | -          |
++----------+---------------+------------+------------+------------+
+
+Total Placer CPU time: 7 secs , REAL time: 28 secs 
+
+
+Checksum -- place: 8d7ec671f76b4214b4532e897de469137e384903
+Writing design to file DualCore_impl_1_par.dir/5_5.udb ...
+
+WARNING <71003020> - par: Top module port 'TCK' does not connect to anything.
+WARNING <71003020> - par: Top module port 'TMS' does not connect to anything.
+WARNING <71003020> - par: Top module port 'TDI' does not connect to anything.
+WARNING <71003020> - par: Top module port 'TDO' does not connect to anything.
+
+Start NBR router at 16:50:35 06/27/24
+
+*****************************************************************
+Info: NBR allows conflicts(one node used by more than one signal)
+      in the earlier iterations. In each iteration, it tries to  
+      solve the conflicts while keeping the critical connections 
+      routed as short as possible. The routing process is said to
+      be completed when no conflicts exist and all connections   
+      are routed.                                                
+Note: NBR uses a different method to calculate timing slacks. The
+      worst slack and total negative slack may not be the same as
+      that in timing report. You should always run the timing    
+      tool to verify your design.                                
+*****************************************************************
+
+Starting routing resource preassignment
+CRITICAL <62212002> - par: The driver of signal equation_module0_inst_O_net is placed in a location (R38C49A.F0) that cannot drive the primary clock tree with dedicated routing resources. Some general routing resources may be used and this clock may suffer from excessive skew or delay.
+Preassignment Summary:
+--------------------------------------------------------------------------------
+4133 connections routed with dedicated routing resources
+7 global clock signals routed
+1 connections routed using general routing resources
+9313 connections routed (of 42715 total) (21.80%)
+---------------------------------------------------------
+Clock routing summary:
+Primary clocks (14 used out of 32 available):
+    Signal "equation_module0_inst_O_net" (12, 28)
+       Control loads: 398   out of   398 routed (100.00%)
+       Data    loads: 1     out of     9 routed ( 11.11%)
+    Signal "pll0_inst_clkop_o_net" (3, 19)
+       Clock   loads: 3222  out of  3222 routed (100.00%)
+    Signal "pll0_inst_clkos_o_net" (5, 21)
+       Clock   loads: 447   out of   447 routed (100.00%)
+    Signal "cpu0_inst_system_resetn_o_net" (0, 16)
+       Control loads: 604   out of   604 routed (100.00%)
+       Data    loads: 0     out of    37 routed (  0.00%)
+    Signal "cpu0_inst.riscvsmall_inst.Ib1w9tjglomgvCgAIkup60xKDx.IbCuo3aEvk5cF25j4DHzkJGG2F.NbqAaKcoy7LeAHb1" (10, 26)
+       Clock   loads: 58    out of    58 routed (100.00%)
+       Data    loads: 1     out of     1 routed (100.00%)
+    Signal "cpu0_inst.riscvsmall_inst.Ib1w9tjglomgvCgAIkup60xKDx.NbbICH" (4, 20)
+       Clock   loads: 83    out of    83 routed (100.00%)
+    Signal "osc0_inst_hf_clk_out_o_net" (2, 18)
+       Clock   loads: 1     out of     1 routed (100.00%)
+Other clocks:
+    Signal "pll0_inst.lscc_pll_inst.intclkop_w"
+       Clock   loads: 1     out of     1 routed (100.00%)
+---------------------------------------------------------
+--------------------------------------------------------------------------------
+Completed routing resource preassignment
+
+Start NBR section for initial routing at 16:50:39 06/27/24
+Level 4, iteration 1
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Routing in Serial Mode ......
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+7194(0.41%) conflicts; 0(0.00%) untouched conn; 1478428 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.585ns/-1478.429ns; real time: 13 secs 
+
+Info: Initial congestion level at 75.00% usage is 0
+Info: Initial congestion area  at 75.00% usage is 5 (0.11%)
+
+Start NBR section for normal routing at 16:50:47 06/27/24
+Level 4, iteration 1
+6092(0.35%) conflicts; 0(0.00%) untouched conn; 1264545 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.645ns/-1264.546ns; real time: 19 secs 
+Level 4, iteration 2
+2575(0.15%) conflicts; 0(0.00%) untouched conn; 1213438 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.638ns/-1213.439ns; real time: 22 secs 
+Level 4, iteration 3
+1330(0.08%) conflicts; 0(0.00%) untouched conn; 1291039 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.647ns/-1291.040ns; real time: 24 secs 
+Level 4, iteration 4
+725(0.04%) conflicts; 0(0.00%) untouched conn; 1291039 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.647ns/-1291.040ns; real time: 25 secs 
+Level 4, iteration 5
+361(0.02%) conflicts; 0(0.00%) untouched conn; 1314891 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.717ns/-1314.892ns; real time: 26 secs 
+Level 4, iteration 6
+196(0.01%) conflicts; 0(0.00%) untouched conn; 1314891 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.717ns/-1314.892ns; real time: 27 secs 
+Level 4, iteration 7
+95(0.01%) conflicts; 0(0.00%) untouched conn; 1339416 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.698ns/-1339.417ns; real time: 28 secs 
+Level 4, iteration 8
+44(0.00%) conflicts; 0(0.00%) untouched conn; 1339416 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.698ns/-1339.417ns; real time: 28 secs 
+Level 4, iteration 9
+44(0.00%) conflicts; 0(0.00%) untouched conn; 1335551 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.698ns/-1335.552ns; real time: 28 secs 
+Level 4, iteration 10
+15(0.00%) conflicts; 0(0.00%) untouched conn; 1335551 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.698ns/-1335.552ns; real time: 28 secs 
+Level 4, iteration 11
+13(0.00%) conflicts; 0(0.00%) untouched conn; 1335982 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.698ns/-1335.983ns; real time: 29 secs 
+Level 4, iteration 12
+7(0.00%) conflicts; 0(0.00%) untouched conn; 1335982 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.698ns/-1335.983ns; real time: 29 secs 
+Level 4, iteration 13
+4(0.00%) conflicts; 0(0.00%) untouched conn; 1334359 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.698ns/-1334.360ns; real time: 29 secs 
+Level 4, iteration 14
+7(0.00%) conflicts; 0(0.00%) untouched conn; 1334359 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.698ns/-1334.360ns; real time: 29 secs 
+Level 4, iteration 15
+3(0.00%) conflicts; 0(0.00%) untouched conn; 1334947 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.698ns/-1334.948ns; real time: 30 secs 
+Level 4, iteration 16
+1(0.00%) conflict; 0(0.00%) untouched conn; 1334947 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.698ns/-1334.948ns; real time: 30 secs 
+Level 4, iteration 17
+0(0.00%) conflict; 0(0.00%) untouched conn; 1335706 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -1.698ns/-1335.707ns; real time: 30 secs 
+
+Start NBR section for post-routing at 16:51:04 06/27/24
+
+End NBR router with 0 unrouted connection
+
+Checksum -- route: c2b8fb1ecce2b2ee922de8083947c4566dedacc
+
+Total CPU time 6 secs 
+Total REAL time: 32 secs 
+Completely routed.
+End of route.  42715 routed (100.00%); 0 unrouted.
+
+Writing design to file DualCore_impl_1_par.dir/5_5.udb ...
+
+
+All signals are completely routed.
+
+
+PAR_SUMMARY::Run status = Completed
+PAR_SUMMARY::Number of unrouted conns = 0
+PAR_SUMMARY::Estimated worst slack<setup/<ns>> = -1.698
+PAR_SUMMARY::Timing score<setup/<ns>> = 316.826
+PAR_SUMMARY::Estimated worst slack<hold/<ns>> = <n/a>
+PAR_SUMMARY::Timing score<hold/<ns>> = <n/a>
+PAR_SUMMARY::Number of errors = 0
+
+Note: user must run 'timing' for timing closure signoff.
+
+Total CPU  Time: 15 secs 
+Total REAL Time: 1 mins 3 secs 
+Peak Memory Usage: 740.11 MB
+
+
+par done!
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2023 Lattice Semiconductor Corporation,  All rights reserved.

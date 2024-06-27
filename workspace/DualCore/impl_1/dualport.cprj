@@ -1,0 +1,6 @@
+-ver "C:/lscc/radiant/2023.2/ip/pmi/pmi_lfd2nx.v"
+-lib pmi -vhd "C:/lscc/radiant/2023.2/ip/pmi/pmi_lfd2nx.vhd"
+-ver "C:/Users/javos/workspace/DualCore/DualCore/lib/latticesemi.com/ip/dualport/2.1.0/rtl/dualport.v"
+-path "C:/Users/javos/workspace/DualCore" "C:/Users/javos/workspace/DualCore/DualCore/lib/latticesemi.com/ip/dualport/2.1.0" "C:/Users/javos/workspace/DualCore"
+-top dualport
+-a "LFD2NX"

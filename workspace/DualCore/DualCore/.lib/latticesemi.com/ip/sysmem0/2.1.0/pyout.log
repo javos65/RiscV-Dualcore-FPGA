@@ -1,0 +1,497 @@
+path:  none lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+path:  none lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+WARNING: missing driver HDL files.
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\rtl\sysmem0_bb.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\sysmem0.cfg 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\misc\sysmem0_tmpl.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\misc\sysmem0_tmpl.vhd 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\rtl\sysmem0.v 
+path:  none lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+Warning: No directory "ldc" in IP module(C:/lscc/propel/2023.2/builder/rtf/ip/common/system_memory)
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\testbench\dut_params.v 
+path:  none lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\testbench\dut_inst.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\design.xml 
+path:  none lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\component.xml 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\sysmem0.ipx 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\cpu0\2.5.0\rtl\cpu0_bb.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\cpu0\2.5.0\cpu0.cfg 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\cpu0\2.5.0\misc\cpu0_tmpl.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\cpu0\2.5.0\misc\cpu0_tmpl.vhd 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\cpu0\2.5.0\rtl\cpu0.v 
+Warning: No directory "ldc" in IP module(C:/Users/javos/PropelIPLocal/latticesemi.com_ip_riscv_mc_2.5.0)
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\cpu0\2.5.0\testbench\dut_params.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\cpu0\2.5.0\testbench\dut_inst.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\cpu0\2.5.0\design.xml 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\cpu0\2.5.0\component.xml 
+"C:/lscc/propel/2023.2/builder/rtf/ispfpga\data\python\nt64\bin\python" "C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\cpu0\2.5.0\testbench/cache_update.py"
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\cpu0\2.5.0\cpu0.ipx 
+[INFO] Using Python version : 3.7.4 (default, Nov 21 2019, 13:51:44) [MSC v.1923 64 bit (AMD64)]
+[DEBUG] bypass_bw_factor =  0
+[DEBUG] Total process time :  0.14331499999999942
+[INFO] Done Parameter Optimization.
+Best Param : {'M_DIV': 1, 'N_DIV': 6, 'O_DIV': {'CLKOP': 14, 'CLKOS': 84}, 'BWFAC': 9.446534284495836, 'fbk_div': 84, 'm_div': 1, 'ipp_ctrl': 6, 'bw_ctrl_bias': 15, 'ipp_sel': 15, 'ipi_cmp': 12, 'cset': 8, 'v2i_pp_res': 9.0, 'cripple': 1, 'PEAK': 0.387634971937585, 'BW_3DB': 1.9054607179632614, 'BW_OPL': 1.7378008287493891, 'PM_3DB': 83.7356363080623}
+
+ Analog Parameters : 
+ - CSET        	: 8P		 - CRIPPLE     	: 1P		 - IPI_CMP     	: 0b1100
+ - V2I_PP_RES  	: 9K		 - IPP_SEL     	: 0b1111		 -             	    
+ - IPP_CTRL    	: 0b0110		 - BW_CTL_BIAS   : 0b1111		 -             	    
+
+WARNING: missing driver HDL files.
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\pll0\1.8.0\rtl\pll0_bb.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\pll0\1.8.0\pll0.cfg 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\pll0\1.8.0\misc\pll0_tmpl.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\pll0\1.8.0\misc\pll0_tmpl.vhd 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\pll0\1.8.0\rtl\pll0.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\pll0\1.8.0\constraints\pll0.ldc 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\pll0\1.8.0\testbench\dut_params.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\pll0\1.8.0\testbench\dut_inst.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\pll0\1.8.0\design.xml 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\pll0\1.8.0\component.xml 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\pll0\1.8.0\pll0.ipx 
+WARNING: missing driver HDL files.
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\osc0\1.4.0\rtl\osc0_bb.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\osc0\1.4.0\osc0.cfg 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\osc0\1.4.0\misc\osc0_tmpl.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\osc0\1.4.0\misc\osc0_tmpl.vhd 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\osc0\1.4.0\rtl\osc0.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\osc0\1.4.0\constraints\osc0.ldc 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\osc0\1.4.0\testbench\dut_params.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\osc0\1.4.0\testbench\dut_inst.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\osc0\1.4.0\design.xml 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\osc0\1.4.0\component.xml 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\osc0\1.4.0\osc0.ipx 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\uart0\1.3.0\rtl\uart0_bb.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\uart0\1.3.0\uart0.cfg 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\uart0\1.3.0\misc\uart0_tmpl.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\uart0\1.3.0\misc\uart0_tmpl.vhd 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\uart0\1.3.0\rtl\uart0.v 
+Warning: No directory "ldc" in IP module(C:/Users/javos/PropelIPLocal/latticesemi.com_ip_uart_1.3.0)
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\uart0\1.3.0\testbench\dut_params.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\uart0\1.3.0\testbench\dut_inst.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\uart0\1.3.0\design.xml 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\uart0\1.3.0\component.xml 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\uart0\1.3.0\uart0.ipx 
+path:  none lib_dir:  
+path:  none lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+path:  none lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+WARNING: missing driver HDL files.
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\dualport\2.1.0\rtl\dualport_bb.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\dualport\2.1.0\dualport.cfg 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\dualport\2.1.0\misc\dualport_tmpl.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\dualport\2.1.0\misc\dualport_tmpl.vhd 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\dualport\2.1.0\rtl\dualport.v 
+path:  none lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+Warning: No directory "ldc" in IP module(C:/lscc/propel/2023.2/builder/rtf/ip/common/system_memory)
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\dualport\2.1.0\testbench\dut_params.v 
+path:  none lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\dualport\2.1.0\testbench\dut_inst.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\dualport\2.1.0\design.xml 
+path:  none lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\dualport\2.1.0\component.xml 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\dualport\2.1.0\dualport.ipx 
+WARNING: missing driver HDL files.
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\dualport\2.1.0\rtl\dualport_bb.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\dualport\2.1.0\dualport.cfg 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\dualport\2.1.0\misc\dualport_tmpl.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\dualport\2.1.0\misc\dualport_tmpl.vhd 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\dualport\2.1.0\rtl\dualport.v 
+path:  none lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+Warning: No directory "ldc" in IP module(C:/lscc/propel/2023.2/builder/rtf/ip/common/system_memory)
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\dualport\2.1.0\testbench\dut_params.v 
+path:  none lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\dualport\2.1.0\testbench\dut_inst.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\dualport\2.1.0\design.xml 
+path:  none lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\dualport\2.1.0\component.xml 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\dualport\2.1.0\dualport.ipx 
+WARNING: missing driver HDL files.
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\ahbl0\1.3.0\rtl\ahbl0_bb.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\ahbl0\1.3.0\ahbl0.cfg 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\ahbl0\1.3.0\misc\ahbl0_tmpl.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\ahbl0\1.3.0\misc\ahbl0_tmpl.vhd 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\ahbl0\1.3.0\rtl\ahbl0.v 
+Warning: No directory "ldc" in IP module(C:/lscc/propel/2023.2/builder/rtf/ip/common/ahb_lite_interconnect)
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\ahbl0\1.3.0\testbench\dut_params.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\ahbl0\1.3.0\testbench\dut_inst.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\ahbl0\1.3.0\design.xml 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\ahbl0\1.3.0\component.xml 
+"C:/lscc/propel/2023.2/builder/rtf/ispfpga\data\python\nt64\bin\python" "C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\ahbl0\1.3.0\testbench/create_ahbl_interconnect_top.py"
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\ahbl0\1.3.0\ahbl0.ipx 
+path:  none lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+path:  none lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+ERROR: ERROR -- File not found
+path:  none lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+path:  ../../riscv_0/Debug/riscv_0.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+WARNING: missing driver HDL files.
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\rtl\sysmem0_bb.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\sysmem0.cfg 
+path:  ../../riscv_0/Debug/riscv_0.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\misc\sysmem0_tmpl.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\misc\sysmem0_tmpl.vhd 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\rtl\sysmem0.v 
+path:  C:/Users/javos/workspace/riscv_0/Debug/riscv_0.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+Warning: No directory "ldc" in IP module(C:/lscc/propel/2023.2/builder/rtf/ip/common/system_memory)
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\testbench\dut_params.v 
+path:  C:/Users/javos/workspace/riscv_0/Debug/riscv_0.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\testbench\dut_inst.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\design.xml 
+path:  C:/Users/javos/workspace/riscv_0/Debug/riscv_0.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\component.xml 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\sysmem0.ipx 
+path:  none lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+path:  ../../riscv_0/Debug/riscv_0.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+path:  ../../riscv_0/Debug/riscv_0.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+WARNING: missing driver HDL files.
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\rtl\sysmem0_bb.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\sysmem0.cfg 
+path:  ../../riscv_0/Debug/riscv_0.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\misc\sysmem0_tmpl.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\misc\sysmem0_tmpl.vhd 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\rtl\sysmem0.v 
+path:  C:/Users/javos/workspace/riscv_0/Debug/riscv_0.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+Warning: No directory "ldc" in IP module(C:/lscc/propel/2023.2/builder/rtf/ip/common/system_memory)
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\testbench\dut_params.v 
+path:  C:/Users/javos/workspace/riscv_0/Debug/riscv_0.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\testbench\dut_inst.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\design.xml 
+path:  C:/Users/javos/workspace/riscv_0/Debug/riscv_0.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\component.xml 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\sysmem0.ipx 
+path:  none lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+ERROR: ERROR -- File not found
+path:  ../../riscv_0/Debug/riscv_0.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+path:  ../../riscv_cpu0/Debug/riscv_cpu0.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+WARNING: missing driver HDL files.
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\rtl\sysmem0_bb.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\sysmem0.cfg 
+path:  ../../riscv_cpu0/Debug/riscv_cpu0.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\misc\sysmem0_tmpl.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\misc\sysmem0_tmpl.vhd 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\rtl\sysmem0.v 
+path:  C:/Users/javos/workspace/riscv_cpu0/Debug/riscv_cpu0.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+Warning: No directory "ldc" in IP module(C:/lscc/propel/2023.2/builder/rtf/ip/common/system_memory)
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\testbench\dut_params.v 
+path:  C:/Users/javos/workspace/riscv_cpu0/Debug/riscv_cpu0.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\testbench\dut_inst.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\design.xml 
+path:  C:/Users/javos/workspace/riscv_cpu0/Debug/riscv_cpu0.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\component.xml 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\sysmem0.ipx 
+path:  none lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+path:  ../../riscv_cpu0/Debug/riscv_cpu0.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+path:  ../../riscv_cpu0/Debug/riscv_cpu0.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+WARNING: missing driver HDL files.
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\rtl\sysmem0_bb.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\sysmem0.cfg 
+path:  ../../riscv_cpu0/Debug/riscv_cpu0.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\misc\sysmem0_tmpl.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\misc\sysmem0_tmpl.vhd 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\rtl\sysmem0.v 
+path:  C:/Users/javos/workspace/riscv_cpu0/Debug/riscv_cpu0.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+Warning: No directory "ldc" in IP module(C:/lscc/propel/2023.2/builder/rtf/ip/common/system_memory)
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\testbench\dut_params.v 
+path:  C:/Users/javos/workspace/riscv_cpu0/Debug/riscv_cpu0.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\testbench\dut_inst.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\design.xml 
+path:  C:/Users/javos/workspace/riscv_cpu0/Debug/riscv_cpu0.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\component.xml 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\sysmem0.ipx 
+path:  ../../riscv_cpu0/Debug/riscv_cpu0.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+WARNING: missing driver HDL files.
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\rtl\sysmem0_bb.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\sysmem0.cfg 
+path:  ../../riscv_cpu0/Debug/riscv_cpu0.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\misc\sysmem0_tmpl.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\misc\sysmem0_tmpl.vhd 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\rtl\sysmem0.v 
+path:  C:/Users/javos/workspace/riscv_cpu0/Debug/riscv_cpu0.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+Warning: No directory "ldc" in IP module(C:/lscc/propel/2023.2/builder/rtf/ip/common/system_memory)
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\testbench\dut_params.v 
+path:  C:/Users/javos/workspace/riscv_cpu0/Debug/riscv_cpu0.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\testbench\dut_inst.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\design.xml 
+path:  C:/Users/javos/workspace/riscv_cpu0/Debug/riscv_cpu0.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\component.xml 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\sysmem0.ipx 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\cpu1\2.5.0\rtl\cpu1_bb.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\cpu1\2.5.0\cpu1.cfg 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\cpu1\2.5.0\misc\cpu1_tmpl.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\cpu1\2.5.0\misc\cpu1_tmpl.vhd 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\cpu1\2.5.0\rtl\cpu1.v 
+Warning: No directory "ldc" in IP module(C:/Users/javos/PropelIPLocal/latticesemi.com_ip_riscv_mc_2.5.0)
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\cpu1\2.5.0\testbench\dut_params.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\cpu1\2.5.0\testbench\dut_inst.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\cpu1\2.5.0\design.xml 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\cpu1\2.5.0\component.xml 
+"C:/lscc/propel/2023.2/builder/rtf/ispfpga\data\python\nt64\bin\python" "C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\cpu1\2.5.0\testbench/cache_update.py"
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\cpu1\2.5.0\cpu1.ipx 
+WARNING: missing driver HDL files.
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\ahbl1\1.3.0\rtl\ahbl1_bb.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\ahbl1\1.3.0\ahbl1.cfg 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\ahbl1\1.3.0\misc\ahbl1_tmpl.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\ahbl1\1.3.0\misc\ahbl1_tmpl.vhd 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\ahbl1\1.3.0\rtl\ahbl1.v 
+Warning: No directory "ldc" in IP module(C:/lscc/propel/2023.2/builder/rtf/ip/common/ahb_lite_interconnect)
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\ahbl1\1.3.0\testbench\dut_params.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\ahbl1\1.3.0\testbench\dut_inst.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\ahbl1\1.3.0\design.xml 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\ahbl1\1.3.0\component.xml 
+"C:/lscc/propel/2023.2/builder/rtf/ispfpga\data\python\nt64\bin\python" "C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\ahbl1\1.3.0\testbench/create_ahbl_interconnect_top.py"
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\ahbl1\1.3.0\ahbl1.ipx 
+path:  none lib_dir:  
+path:  none lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+path:  none lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+path:  none lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+path:  none lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+WARNING: missing driver HDL files.
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\rtl\sysmem1_bb.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\sysmem1.cfg 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\misc\sysmem1_tmpl.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\misc\sysmem1_tmpl.vhd 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\rtl\sysmem1.v 
+path:  none lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+Warning: No directory "ldc" in IP module(C:/lscc/propel/2023.2/builder/rtf/ip/common/system_memory)
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\testbench\dut_params.v 
+path:  none lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\testbench\dut_inst.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\design.xml 
+path:  none lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\component.xml 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\sysmem1.ipx 
+path:  none lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+path:  ../../riscv_cpu0/Debug/riscv_cpu0.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+path:  none lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+path:  none lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+path:  none lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+WARNING: missing driver HDL files.
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\rtl\sysmem1_bb.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\sysmem1.cfg 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\misc\sysmem1_tmpl.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\misc\sysmem1_tmpl.vhd 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\rtl\sysmem1.v 
+path:  none lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+Warning: No directory "ldc" in IP module(C:/lscc/propel/2023.2/builder/rtf/ip/common/system_memory)
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\testbench\dut_params.v 
+path:  none lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\testbench\dut_inst.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\design.xml 
+path:  none lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\component.xml 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\sysmem1.ipx 
+path:  none lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+path:  none lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+path:  none lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+WARNING: missing driver HDL files.
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\dualport\2.1.0\rtl\dualport_bb.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\dualport\2.1.0\dualport.cfg 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\dualport\2.1.0\misc\dualport_tmpl.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\dualport\2.1.0\misc\dualport_tmpl.vhd 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\dualport\2.1.0\rtl\dualport.v 
+path:  none lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+Warning: No directory "ldc" in IP module(C:/lscc/propel/2023.2/builder/rtf/ip/common/system_memory)
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\dualport\2.1.0\testbench\dut_params.v 
+path:  none lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\dualport\2.1.0\testbench\dut_inst.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\dualport\2.1.0\design.xml 
+path:  none lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\dualport\2.1.0\component.xml 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\dualport\2.1.0\dualport.ipx 
+path:  none lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+path:  none lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+ERROR: ERROR -- File not found
+path:  none lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+path:  ../../riscv_cpu1/Debug/riscv_cpu1.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+WARNING: missing driver HDL files.
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\rtl\sysmem1_bb.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\sysmem1.cfg 
+path:  ../../riscv_cpu1/Debug/riscv_cpu1.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\misc\sysmem1_tmpl.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\misc\sysmem1_tmpl.vhd 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\rtl\sysmem1.v 
+path:  C:/Users/javos/workspace/riscv_cpu1/Debug/riscv_cpu1.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+Warning: No directory "ldc" in IP module(C:/lscc/propel/2023.2/builder/rtf/ip/common/system_memory)
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\testbench\dut_params.v 
+path:  C:/Users/javos/workspace/riscv_cpu1/Debug/riscv_cpu1.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\testbench\dut_inst.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\design.xml 
+path:  C:/Users/javos/workspace/riscv_cpu1/Debug/riscv_cpu1.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\component.xml 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\sysmem1.ipx 
+path:  none lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+ERROR: ERROR -- File not found
+path:  ../../riscv_cpu0/Debug/riscv_cpu0.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+path:  ../../riscv_00/Debug/riscv_00.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+WARNING: missing driver HDL files.
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\rtl\sysmem0_bb.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\sysmem0.cfg 
+path:  ../../riscv_00/Debug/riscv_00.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\misc\sysmem0_tmpl.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\misc\sysmem0_tmpl.vhd 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\rtl\sysmem0.v 
+path:  C:/Users/javos/workspace/riscv_00/Debug/riscv_00.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+Warning: No directory "ldc" in IP module(C:/lscc/propel/2023.2/builder/rtf/ip/common/system_memory)
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\testbench\dut_params.v 
+path:  C:/Users/javos/workspace/riscv_00/Debug/riscv_00.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\testbench\dut_inst.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\design.xml 
+path:  C:/Users/javos/workspace/riscv_00/Debug/riscv_00.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\component.xml 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\sysmem0.ipx 
+path:  none lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+ERROR: ERROR -- File not found
+path:  ../../riscv_cpu1/Debug/riscv_cpu1.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+path:  ../../riscv_01/Debug/riscv_01.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+WARNING: missing driver HDL files.
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\rtl\sysmem1_bb.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\sysmem1.cfg 
+path:  ../../riscv_01/Debug/riscv_01.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\misc\sysmem1_tmpl.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\misc\sysmem1_tmpl.vhd 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\rtl\sysmem1.v 
+path:  C:/Users/javos/workspace/riscv_01/Debug/riscv_01.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+Warning: No directory "ldc" in IP module(C:/lscc/propel/2023.2/builder/rtf/ip/common/system_memory)
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\testbench\dut_params.v 
+path:  C:/Users/javos/workspace/riscv_01/Debug/riscv_01.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\testbench\dut_inst.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\design.xml 
+path:  C:/Users/javos/workspace/riscv_01/Debug/riscv_01.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\component.xml 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\sysmem1.ipx 
+path:  none lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+path:  ../../riscv_01/Debug/riscv_01.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+path:  ../../riscv_01/Debug/riscv_01.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+WARNING: missing driver HDL files.
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\rtl\sysmem1_bb.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\sysmem1.cfg 
+path:  ../../riscv_01/Debug/riscv_01.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\misc\sysmem1_tmpl.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\misc\sysmem1_tmpl.vhd 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\rtl\sysmem1.v 
+path:  C:/Users/javos/workspace/riscv_01/Debug/riscv_01.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+Warning: No directory "ldc" in IP module(C:/lscc/propel/2023.2/builder/rtf/ip/common/system_memory)
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\testbench\dut_params.v 
+path:  C:/Users/javos/workspace/riscv_01/Debug/riscv_01.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\testbench\dut_inst.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\design.xml 
+path:  C:/Users/javos/workspace/riscv_01/Debug/riscv_01.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\component.xml 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\sysmem1.ipx 
+path:  none lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+path:  ../../riscv_00/Debug/riscv_00.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+path:  ../../riscv_00/Debug/riscv_00.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+WARNING: missing driver HDL files.
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\rtl\sysmem0_bb.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\sysmem0.cfg 
+path:  ../../riscv_00/Debug/riscv_00.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\misc\sysmem0_tmpl.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\misc\sysmem0_tmpl.vhd 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\rtl\sysmem0.v 
+path:  C:/Users/javos/workspace/riscv_00/Debug/riscv_00.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+Warning: No directory "ldc" in IP module(C:/lscc/propel/2023.2/builder/rtf/ip/common/system_memory)
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\testbench\dut_params.v 
+path:  C:/Users/javos/workspace/riscv_00/Debug/riscv_00.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\testbench\dut_inst.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\design.xml 
+path:  C:/Users/javos/workspace/riscv_00/Debug/riscv_00.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\component.xml 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem0\2.1.0\sysmem0.ipx 
+WARNING: missing driver HDL files.
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\ahbl2abp1\1.1.0\rtl\ahbl2abp1_bb.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\ahbl2abp1\1.1.0\ahbl2abp1.cfg 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\ahbl2abp1\1.1.0\misc\ahbl2abp1_tmpl.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\ahbl2abp1\1.1.0\misc\ahbl2abp1_tmpl.vhd 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\ahbl2abp1\1.1.0\rtl\ahbl2abp1.v 
+Warning: No directory "ldc" in IP module(C:/lscc/propel/2023.2/builder/rtf/ip/common/ahb_lite_to_apb_bridge)
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\ahbl2abp1\1.1.0\testbench\dut_params.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\ahbl2abp1\1.1.0\testbench\dut_inst.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\ahbl2abp1\1.1.0\design.xml 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\ahbl2abp1\1.1.0\component.xml 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\ahbl2abp1\1.1.0\ahbl2abp1.ipx 
+WARNING: missing driver HDL files.
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\ahbl1\1.3.0\rtl\ahbl1_bb.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\ahbl1\1.3.0\ahbl1.cfg 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\ahbl1\1.3.0\misc\ahbl1_tmpl.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\ahbl1\1.3.0\misc\ahbl1_tmpl.vhd 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\ahbl1\1.3.0\rtl\ahbl1.v 
+Warning: No directory "ldc" in IP module(C:/lscc/propel/2023.2/builder/rtf/ip/common/ahb_lite_interconnect)
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\ahbl1\1.3.0\testbench\dut_params.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\ahbl1\1.3.0\testbench\dut_inst.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\ahbl1\1.3.0\design.xml 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\ahbl1\1.3.0\component.xml 
+"C:/lscc/propel/2023.2/builder/rtf/ispfpga\data\python\nt64\bin\python" "C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\ahbl1\1.3.0\testbench/create_ahbl_interconnect_top.py"
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\ahbl1\1.3.0\ahbl1.ipx 
+WARNING: missing driver HDL files.
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\ahbl1\1.3.0\rtl\ahbl1_bb.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\ahbl1\1.3.0\ahbl1.cfg 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\ahbl1\1.3.0\misc\ahbl1_tmpl.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\ahbl1\1.3.0\misc\ahbl1_tmpl.vhd 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\ahbl1\1.3.0\rtl\ahbl1.v 
+Warning: No directory "ldc" in IP module(C:/lscc/propel/2023.2/builder/rtf/ip/common/ahb_lite_interconnect)
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\ahbl1\1.3.0\testbench\dut_params.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\ahbl1\1.3.0\testbench\dut_inst.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\ahbl1\1.3.0\design.xml 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\ahbl1\1.3.0\component.xml 
+"C:/lscc/propel/2023.2/builder/rtf/ispfpga\data\python\nt64\bin\python" "C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\ahbl1\1.3.0\testbench/create_ahbl_interconnect_top.py"
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\module\ahbl1\1.3.0\ahbl1.ipx 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\gpio1\1.6.2\rtl\gpio1_bb.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\gpio1\1.6.2\gpio1.cfg 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\gpio1\1.6.2\misc\gpio1_tmpl.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\gpio1\1.6.2\misc\gpio1_tmpl.vhd 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\gpio1\1.6.2\rtl\gpio1.v 
+Warning: No directory "ldc" in IP module(C:/Users/javos/PropelIPLocal/latticesemi.com_ip_gpio_1.6.2)
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\gpio1\1.6.2\testbench\dut_params.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\gpio1\1.6.2\testbench\dut_inst.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\gpio1\1.6.2\design.xml 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\gpio1\1.6.2\component.xml 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\gpio1\1.6.2\gpio1.ipx 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\gpio1\1.6.2\rtl\gpio1_bb.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\gpio1\1.6.2\gpio1.cfg 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\gpio1\1.6.2\misc\gpio1_tmpl.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\gpio1\1.6.2\misc\gpio1_tmpl.vhd 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\gpio1\1.6.2\rtl\gpio1.v 
+Warning: No directory "ldc" in IP module(C:/Users/javos/PropelIPLocal/latticesemi.com_ip_gpio_1.6.2)
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\gpio1\1.6.2\testbench\dut_params.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\gpio1\1.6.2\testbench\dut_inst.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\gpio1\1.6.2\design.xml 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\gpio1\1.6.2\component.xml 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\gpio1\1.6.2\gpio1.ipx 
+path:  none lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+ERROR: ERROR -- File not found
+path:  ../../riscv_01/Debug/riscv_01.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+path:  ../../riscv_11/Debug/riscv_11.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+WARNING: missing driver HDL files.
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\rtl\sysmem1_bb.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\sysmem1.cfg 
+path:  ../../riscv_11/Debug/riscv_11.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\misc\sysmem1_tmpl.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\misc\sysmem1_tmpl.vhd 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\rtl\sysmem1.v 
+path:  C:/Users/javos/workspace/riscv_11/Debug/riscv_11.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+Warning: No directory "ldc" in IP module(C:/lscc/propel/2023.2/builder/rtf/ip/common/system_memory)
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\testbench\dut_params.v 
+path:  C:/Users/javos/workspace/riscv_11/Debug/riscv_11.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\testbench\dut_inst.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\design.xml 
+path:  C:/Users/javos/workspace/riscv_11/Debug/riscv_11.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\component.xml 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\sysmem1.ipx 
+path:  none lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+path:  ../../riscv_11/Debug/riscv_11.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+path:  ../../riscv_11/Debug/riscv_11.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+WARNING: missing driver HDL files.
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\rtl\sysmem1_bb.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\sysmem1.cfg 
+path:  ../../riscv_11/Debug/riscv_11.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\misc\sysmem1_tmpl.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\misc\sysmem1_tmpl.vhd 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\rtl\sysmem1.v 
+path:  C:/Users/javos/workspace/riscv_11/Debug/riscv_11.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+Warning: No directory "ldc" in IP module(C:/lscc/propel/2023.2/builder/rtf/ip/common/system_memory)
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\testbench\dut_params.v 
+path:  C:/Users/javos/workspace/riscv_11/Debug/riscv_11.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\testbench\dut_inst.v 
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\design.xml 
+path:  C:/Users/javos/workspace/riscv_11/Debug/riscv_11.mem lib_dir:  C:/Users/javos/workspace/DualCore/DualCore/.lib
+Writing C:\Users\javos\workspace\DualCore\DualCore\.lib\latticesemi.com\ip\sysmem1\2.1.0\component.xml 

@@ -1,0 +1,4 @@
+ckid0_9:@|S:pll0_inst.lscc_pll_inst.gen_no_refclk_mon\.u_PLL.CLKOS@|E:ahbl2abp1_inst.lscc_ahbl2apb_inst.dual_clk\.cs_apb_sm[1]@|F:@syn_dgcc_clockid0_9==1@|M:ClockId_0_9
+ckid0_104:@|S:pll0_inst.lscc_pll_inst.gen_no_refclk_mon\.u_PLL.CLKOP@|E:ahbl0_inst.lscc_ahbl_interconnect_inst.ahb_lite_bus\.u_lscc_ahbl_bus.u_lscc_ahbl_multiplexor.active_tx_r@|F:@syn_dgcc_clockid0_104==1@|M:ClockId_0_104
+ckid0_107:@|S:ENCRYPTED@|E:ENCRYPTED@|F:@syn_dgcc_clockid0_107==1@|M:ClockId_0_107
+ckid0_108:@|S:ENCRYPTED@|E:ENCRYPTED@|F:@syn_dgcc_clockid0_108==1@|M:ClockId_0_108
