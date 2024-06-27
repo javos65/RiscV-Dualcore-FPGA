@@ -1,7 +1,7 @@
 # Dualcore RiscV-FPGA-demo
 Demo for Lattice FPGA with dual core RiscV, Based on Trenz CR00103-03 Certus-NX board.<br>
 
-![logo](/images/CR00103-03 top.jpg?raw=true)
+![logo](/images/CR00103-03%20top.jpg?raw=true)
 
 ____
 
